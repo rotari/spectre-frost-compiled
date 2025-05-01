@@ -1,0 +1,20 @@
+uuid: 9a2df01f-e166-43ea-aa1f-4a6e414091f9
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: xNoFUbRXL-Ul4_X7F_DIAw2QtQiMREEe3ZoY50vwSN8
+id: paragraph.field_attr_open
+field_name: field_attr_open
+entity_type: paragraph
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

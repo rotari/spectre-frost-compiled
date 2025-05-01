@@ -1,0 +1,25 @@
+uuid: 0d6351e5-def5-49de-a75d-7c277144c58c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.block.field_block
+    - paragraphs.paragraphs_type.block
+  module:
+    - block_field
+_core:
+  default_config_hash: 8TwYv1OpHLtx-s_Q7oCQ0V-hHRb7iC7zAGOrtUoO3GU
+id: paragraph.block.default
+targetEntityType: paragraph
+bundle: block
+mode: default
+content:
+  field_block:
+    type: block_field
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  search_api_excerpt: true

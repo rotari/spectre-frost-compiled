@@ -1,0 +1,22 @@
+uuid: 9fe07fb1-dbe5-4389-9fd3-1645b6e2aee7
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - spectre_frost_theme
+_core:
+  default_config_hash: lyOS220h6DDeOMlLVWm-4LcYldBeY1sqSJO_0KXhVik
+id: spectre_frost_theme_mainpagecontent
+theme: spectre_frost_theme
+region: content
+weight: -3
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,18 @@
+uuid: 0eb3f6ec-38c4-4b2a-bf76-097b4d9f7080
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.imagine_loadout
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: media.imagine_loadout
+target_entity_type_id: media
+target_bundle: imagine_loadout
+default_langcode: site_default
+language_alterable: false

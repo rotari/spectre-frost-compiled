@@ -1,0 +1,19 @@
+uuid: e677dfdf-ee1c-48bb-8a28-e630beecdcfb
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_link_catre_teren
+field_name: field_link_catre_teren
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

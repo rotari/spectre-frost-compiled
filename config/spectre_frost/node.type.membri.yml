@@ -1,0 +1,17 @@
+uuid: 9f029b72-0250-4d8a-b126-ff1adc1d5b7c
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Membri
+type: membri
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

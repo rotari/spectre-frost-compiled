@@ -1,0 +1,29 @@
+uuid: 02651cc9-de3e-4c28-9869-43cf4df1a1af
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.webform.field_webform
+    - paragraphs.paragraphs_type.webform
+  module:
+    - field_formatter_class
+    - webform
+_core:
+  default_config_hash: FbV18_toA7FzUp0_xnMGzaanq7DJ_gbPFWMyQoBGwJ8
+id: paragraph.webform.default
+targetEntityType: paragraph
+bundle: webform
+mode: default
+content:
+  field_webform:
+    type: webform_entity_reference_entity_view
+    label: hidden
+    settings:
+      source_entity: false
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+    weight: 0
+    region: content
+hidden:
+  search_api_excerpt: true

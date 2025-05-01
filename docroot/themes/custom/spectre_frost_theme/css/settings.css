@@ -1,0 +1,85 @@
+/**
+ * @file
+ * @font-face and CSS custom properties in the global scope.
+ */
+
+/**
+ * Fonts imported early and directly.
+ *
+ * Only include fonts that are known to be used, since each is an asset to load.
+ * font-display: swap; is used to prevent text from being hidden on load.
+ * We list src in preference order: local, woff2, then woff
+ *
+ * For performance and flexibility, prefer variable fonts whenever possible.
+ *
+ * @see https://google-webfonts-helper.herokuapp.com/fonts
+ */
+
+@font-face {
+  font-display: swap;
+  font-family: 'Ethnocentricrg';
+  font-stretch: 75% 100%;
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/ethnocentricrg/EthnocentricRg-Regular.ttf.woff') format('woff');
+}
+
+
+/**
+ * CSS Custom properties for colors and other variables.
+ */
+:root {
+  /* Plain defaults. */
+  --border--default: 1px solid;
+  --border-radius--default: 2px;
+  --box-shadow--default: 0 0 3px rgba(0, 0, 0, .5);
+  --font-family--input: 'Poppins', Arial, Helvetica, sans-serif;
+  --font-family--monospace: 'courier new', courier, monospace;
+  --font-family--primary: 'Poppins', Arial, Helvetica, sans-serif;
+  --font-family--secondary: 'Ethnocentricrg', sans-serif;
+  --layout--content-area: 1280px;
+  --line-height--default: 1.425;
+  --line-height--heading: 1;
+  --spacing--single: 0.625rem;
+  --text-shadow--default: 0 0 2px rgba(0, 0, 0, .5);
+  --transition--default: all .3s ease-in;
+  /* Main theme colors. */
+  /*--color--black: #222;*/
+  /*--color--grey-dark: #555;*/
+  /*--color--grey: #aaa;*/
+  /*--color--grey-light: #f7f7f7;*/
+  /*--color--white: #fff;*/
+  /*--color--main: #354936; !* This should be a 6-char hex with uppercase letters. *!*/
+  /*--color--main-dark: #354936;*/
+  /*--color--main-light: #60825d;*/
+  /*--color--second: #e32416;*/
+  /*--color--second-dark: #331716;*/
+  /*--color--second-light: #ffcfcc;*/
+  /*--color--third: #354936;*/
+  /*--color--third-dark: #003033;*/
+  /*--color--third-light: #ccfcff;*/
+  /*--color--accent: #6100a7;*/
+
+  --color--black: #222; /*ok*/
+  --color--grey-dark: #555555;
+  --color--grey: #808080;
+  --color--grey-light: #dcdcdc;
+  --color--white: #f0f0f0; /*ok*/
+  --color--main: #354936; /*ok*/
+  --color--main-dark: #1f2b20;
+  --color--main-light: #60825d; /*ok*/
+  --color--second: #e32416; /*ok*/
+  --color--second-dark: #8c180e;
+  --color--second-light: #f8766d;
+  --color--third: #604b69; /*ok*/
+  --color--third-dark: #3d2c3d;
+  --color--third-light: #9b869b;
+  --color--accent: #001f3f; /*ok*/
+  /* Message colors. Can be customized to be site-appropriate. */
+  --color--status: var(--color--main-dark);
+  --color--status-background: var(--color--main-light);
+  --color--warning: #860;
+  --color--warning-background: #ffc;
+  --color--error: var(--color--second-dark);
+  --color--error-background: var(--color--second-light);
+}

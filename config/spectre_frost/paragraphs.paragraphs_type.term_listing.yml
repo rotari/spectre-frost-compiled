@@ -1,0 +1,12 @@
+uuid: c3469519-efa0-4975-8eb8-5fd76dce350d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: wNUwiMFz0-6kNDTijd_QvGLUmSfe3zV7iGP8gcYuD8c
+id: term_listing
+label: 'Term listing'
+icon_uuid: null
+icon_default: null
+description: 'Show teasers of taxonomy terms that link to their detail/listing pages'
+behavior_plugins: {  }

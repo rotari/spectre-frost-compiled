@@ -1,0 +1,15 @@
+uuid: 40da7f29-0d78-40dc-9d91-c2eb825bf0ec
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_trail_by_path
+third_party_settings:
+  menu_trail_by_path:
+    trail_source: ''
+_core:
+  default_config_hash: El1hUB31eoiIpC8OLbcMsBT84I865wTj03SZ0nNJte8
+id: utility
+label: Utility
+description: "'Verb' links for above the header (nouns belong in the main menu)"
+locked: false

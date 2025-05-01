@@ -1,0 +1,18 @@
+uuid: 69a6f15b-77b9-4417-b9f3-d8018ab40a92
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.teaser_teren
+id: media.teaser_teren.metatag
+field_name: metatag
+entity_type: media
+bundle: teaser_teren
+label: 'Metatags (Hidden field for JSON support)'
+description: 'The meta tags for the entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

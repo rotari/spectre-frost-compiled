@@ -1,0 +1,12 @@
+uuid: 8356d7cd-72bc-47f2-9ded-9c727c28fe8f
+langcode: en
+status: true
+dependencies:
+  module:
+    - redirect
+_core:
+  default_config_hash: guZO0bxvMfaohAFg0tPsWi83elemLugbpohvNXK2p90
+id: redirect.teaser
+label: Teaser
+targetEntityType: redirect
+cache: true

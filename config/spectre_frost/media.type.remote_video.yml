@@ -1,0 +1,26 @@
+uuid: c89d563e-3477-40a1-ada8-275a01c2c84c
+langcode: en
+status: true
+dependencies:
+  config:
+    - oembed_providers.bucket.video
+  module:
+    - oembed_providers
+_core:
+  default_config_hash: fwX_z7wEB-9qfnFVYLIbYSAAdwjAAmrBfv4W2sf4VQI
+id: remote_video
+label: 'Remote video'
+description: 'Embedded videos hosted elsewhere, such as TikTok, Vimeo, or YouTube.'
+source: 'oembed:video'
+queue_thumbnail_downloads: false
+new_revision: true
+source_configuration:
+  source_field: field_media_oembed_video
+  thumbnails_directory: 'public://oembed_thumbnails'
+  providers:
+    - TikTok
+    - Vimeo
+    - YouTube
+field_map:
+  title: name
+  provider_name: field_media_provider

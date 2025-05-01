@@ -1,0 +1,25 @@
+uuid: 78266a13-c302-4c18-9414-6a9d2aefd85a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_style_layout
+    - paragraphs.paragraphs_type.content_listing
+  module:
+    - options
+_core:
+  default_config_hash: eL_sybNEc3i-SEOdB8M1G5fdEP0dEGZ7IRtWiiTPrP0
+id: paragraph.content_listing.field_style_layout
+field_name: field_style_layout
+entity_type: paragraph
+bundle: content_listing
+label: Layout
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: layout--horizontal
+default_value_callback: ''
+settings: {  }
+field_type: list_string

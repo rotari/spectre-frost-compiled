@@ -1,0 +1,20 @@
+uuid: 6bb06868-e5ad-4809-8901-d02273bc5de7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_nickname
+  module:
+    - user
+id: user.user.field_nickname
+field_name: field_nickname
+entity_type: user
+bundle: user
+label: Nickname
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

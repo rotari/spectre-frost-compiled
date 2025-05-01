@@ -1,0 +1,12 @@
+uuid: ef1c29c2-0542-41af-b6f9-498af676348c
+langcode: en
+status: true
+dependencies:
+  module:
+    - redirect
+_core:
+  default_config_hash: z6H4X4o0JcASpvgtGXa4ITSlNbepsJU5yAoo7xPMzlU
+id: redirect.small
+label: Small
+targetEntityType: redirect
+cache: true

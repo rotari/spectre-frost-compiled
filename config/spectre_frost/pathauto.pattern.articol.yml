@@ -1,0 +1,24 @@
+uuid: 4e70ded5-a96b-4558-ad79-26bed77a651a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: UF0Nn9BL89WHC0aatpuWhm6JWByLe9HAtBbLnXjgo-0
+id: articol
+label: Articol
+type: 'canonical_entities:node'
+pattern: 'blog/[node:title]'
+selection_criteria:
+  8a92048b-ed33-4213-915f-41b159ddd093:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 8a92048b-ed33-4213-915f-41b159ddd093
+    context_mapping:
+      node: node
+    bundles:
+      article: article
+selection_logic: and
+weight: -5
+relationships: {  }

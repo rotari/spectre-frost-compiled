@@ -1,0 +1,25 @@
+uuid: 3074d7ee-ba11-41c2-b29e-19ec351e4d25
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - frost_theme
+third_party_settings:
+  block_class:
+    classes: null
+_core:
+  default_config_hash: zPWwUl3oWneAU0CQbFj5U0lLGRcDlSBQVh2M_yvZvr8
+id: breadcrumbs
+theme: frost_theme
+region: pre_content
+weight: -4
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

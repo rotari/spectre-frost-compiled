@@ -1,0 +1,12 @@
+uuid: a287f420-143d-40f0-bc40-64a1e496c25f
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_link_content
+_core:
+  default_config_hash: GmzxYBZ5tP-rnrr0JFxcI1hYWD5bhxwdhW91scGyQDw
+id: menu_link_content.small
+label: Small
+targetEntityType: menu_link_content
+cache: true

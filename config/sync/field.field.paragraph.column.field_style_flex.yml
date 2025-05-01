@@ -1,0 +1,25 @@
+uuid: b54ee77f-a883-4053-904c-f52930abd004
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_style_flex
+    - paragraphs.paragraphs_type.column
+  module:
+    - options
+_core:
+  default_config_hash: k_rb8b9P2j0DAhtOzqbCTJcVU7hq9y8JXDErDMv6VUM
+id: paragraph.column.field_style_flex
+field_name: field_style_flex
+entity_type: paragraph
+bundle: column
+label: Width
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: flex--1
+default_value_callback: ''
+settings: {  }
+field_type: list_string

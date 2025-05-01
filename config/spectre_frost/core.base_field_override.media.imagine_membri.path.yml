@@ -1,0 +1,20 @@
+uuid: e27344ba-6946-4b14-89e8-57e80eb03cef
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.imagine_membri
+  module:
+    - path
+id: media.imagine_membri.path
+field_name: path
+entity_type: media
+bundle: imagine_membri
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

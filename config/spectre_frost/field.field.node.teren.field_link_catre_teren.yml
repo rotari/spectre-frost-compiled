@@ -1,0 +1,23 @@
+uuid: eb579279-41d0-4355-8118-dc716a2c38f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_link_catre_teren
+    - node.type.teren
+  module:
+    - link
+id: node.teren.field_link_catre_teren
+field_name: field_link_catre_teren
+entity_type: node
+bundle: teren
+label: 'Link catre teren'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

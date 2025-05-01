@@ -1,0 +1,20 @@
+uuid: d04fb878-227b-4a12-8168-7888a60b6671
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.imagine_loadout
+  module:
+    - path
+id: media.imagine_loadout.path
+field_name: path
+entity_type: media
+bundle: imagine_loadout
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

@@ -1,0 +1,20 @@
+uuid: 6876e7eb-face-473c-b12d-d8325f77ee90
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.teaser_teren
+id: media.teaser_teren.name
+field_name: name
+entity_type: media
+bundle: teaser_teren
+label: Name
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

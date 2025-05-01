@@ -1,0 +1,19 @@
+uuid: 1705ddb4-75c2-4bcc-9475-21ca1f6848f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nickname
+    - node.type.membri
+id: node.membri.field_nickname
+field_name: field_nickname
+entity_type: node
+bundle: membri
+label: Nickname
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,31 @@
+uuid: c295e329-9c42-46f3-b7d4-2f45b24a6bd6
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - menu_link_content
+_core:
+  default_config_hash: '-GPMxNAZcM8zgkWGXFmJaAsRo9ud-IZR31RS1rxxuTU'
+id: menu_link_content.main.default
+targetEntityType: menu_link_content
+bundle: main
+mode: default
+content:
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  view_mode: true

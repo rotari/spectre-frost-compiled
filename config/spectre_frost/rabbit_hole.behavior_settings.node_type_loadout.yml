@@ -1,0 +1,14 @@
+uuid: 71c7ec9f-af20-4942-a5ba-d5290a75f6fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.loadout
+id: node_type_loadout
+entity_type_id: node_type
+entity_id: loadout
+action: display_page
+allow_override: 0
+redirect: ''
+redirect_code: 301
+redirect_fallback_action: access_denied

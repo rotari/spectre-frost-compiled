@@ -1,0 +1,25 @@
+uuid: a3a81d76-c57f-4f10-bbf3-2a5c1e88bc5d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.iframe.field_iframe
+    - paragraphs.paragraphs_type.iframe
+  module:
+    - iframe
+_core:
+  default_config_hash: sXWO02YAvAU4Z8vREf8Tlyz8QT8_puIlaTLj8Et7JyI
+id: paragraph.iframe.default
+targetEntityType: paragraph
+bundle: iframe
+mode: default
+content:
+  field_iframe:
+    type: iframe_urlwidthheight
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

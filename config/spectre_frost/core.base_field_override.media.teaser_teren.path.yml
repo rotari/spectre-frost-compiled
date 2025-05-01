@@ -1,0 +1,20 @@
+uuid: 00d5b4e3-72bf-4a51-8937-fbfaa50c763e
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.teaser_teren
+  module:
+    - path
+id: media.teaser_teren.path
+field_name: path
+entity_type: media
+bundle: teaser_teren
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

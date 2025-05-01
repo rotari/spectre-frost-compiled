@@ -1,0 +1,28 @@
+uuid: fcc342cd-f73c-4359-b107-34142fba14e0
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - block_class
+    - system
+  theme:
+    - frost_theme
+_core:
+  default_config_hash: drF_g1HU0XY2kEqsrUxWhyDGJonf11C1aVxioZgHOng
+id: mainnavigation
+theme: frost_theme
+region: nav
+weight: -8
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

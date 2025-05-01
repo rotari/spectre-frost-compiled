@@ -1,0 +1,33 @@
+<?php
+
+require_once 'includes/preprocess_views.inc';
+
+/**
+ * Implements hook_preprocess_block().
+ */
+//function spectre_frost_theme_preprocess_block(&$variables) {
+//  // Check if the block is the one created by your custom module.
+//  kint($variables['derivative_plugin_id']);
+//  kint($variables['plugin_id']);
+//  kint($variables['base_plugin_id']);
+//  if ($variables['derivative_plugin_id'] == 'frost_custom') {
+//    // Add your new variable to the block.
+//    $path = \Drupal::theme()->getActiveTheme()->getPath();;
+//    $variables['icon']['#uri'] = $path . '/images/logo-spectre-sigla.svg';
+//  }
+//}
+
+
+function spectre_frost_theme_preprocess_block__inverted_logo_block(&$variables) {
+  // Check if the block is the "inverted_logo_block" block.
+//  kint($variables['derivative_plugin_id']);
+  if ($variables['derivative_plugin_id'] == 'frost_custom:inverted_logo_block') {
+    // Modify the "logo" variable.
+    $variables['logo'] = [
+      '#theme' => 'image',
+      '#uri' => 'public://my-custom-logo.png',
+      '#alt' => 'My Custom Logo',
+      '#attributes' => ['class' => 'custom-logo'],
+    ];
+  }
+}

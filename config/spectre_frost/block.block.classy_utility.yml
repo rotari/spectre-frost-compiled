@@ -1,0 +1,28 @@
+uuid: 1857c2c6-e7dc-4010-92ea-b56d95896e83
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.utility
+  module:
+    - block_class
+    - system
+  theme:
+    - classy
+_core:
+  default_config_hash: p8qtjwK-D0ZTRcLPf3jOQxP48IanS9GIyl090BzLU00
+id: classy_utility
+theme: classy
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:utility'
+settings:
+  id: 'system_menu_block:utility'
+  label: Utility
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

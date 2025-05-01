@@ -1,0 +1,9 @@
+{% extends "block.html.twig" %}
+{% block content %}
+  {% if site_logo %}
+    <a href="{{ path('<front>') }}" rel="home">
+      {{ content.site_logo }}
+    </a>
+  {% endif %}
+  {{ site_slogan }}
+{% endblock %}

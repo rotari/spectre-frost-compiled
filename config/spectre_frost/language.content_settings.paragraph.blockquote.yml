@@ -1,0 +1,18 @@
+uuid: c02f9da5-4968-4cd3-b40a-44967b32e409
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.blockquote
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: paragraph.blockquote
+target_entity_type_id: paragraph
+target_bundle: blockquote
+default_langcode: site_default
+language_alterable: false

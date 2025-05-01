@@ -1,0 +1,12 @@
+uuid: debebd70-0234-42a5-8334-026de1327558
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: IlXIiiKoMLYH6sUgj66vWBJxj-1WFDqZhyo8Fhdf3bc
+id: accordion
+label: Accordion
+icon_uuid: null
+icon_default: null
+description: 'Disclosure element, allowing to show a brief label that toggles a longer description'
+behavior_plugins: {  }

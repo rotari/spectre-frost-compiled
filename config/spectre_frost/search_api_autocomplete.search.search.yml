@@ -1,0 +1,26 @@
+uuid: 2f7e63e5-6483-450a-85c8-8e6fa3d03433
+langcode: en
+status: true
+dependencies:
+  config:
+    - search_api.index.content
+    - views.view.search
+  module:
+    - views
+    - search_api_autocomplete
+_core:
+  default_config_hash: YdLZkD9xC_Q_utpwVI7b6ptb2XTKcloHGuJYKmLULNM
+id: search
+label: Search
+index_id: content
+suggester_settings:
+  server:
+    fields: {  }
+suggester_weights: {  }
+suggester_limits: {  }
+search_settings:
+  'views:search':
+    displays:
+      default: true
+      selected: {  }
+options: {  }

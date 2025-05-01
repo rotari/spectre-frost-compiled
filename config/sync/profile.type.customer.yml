@@ -1,0 +1,20 @@
+uuid: f60e70ee-7a11-4707-bb95-aed1d2e89aa1
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - commerce_order
+third_party_settings:
+  commerce_order:
+    customer_profile_type: true
+_core:
+  default_config_hash: ZovFkwFOJx4NWknwN5EQC_dFKeBjjc3aR6KRFU5jIWI
+id: customer
+label: Customer
+display_label: 'Customer information'
+multiple: true
+registration: false
+roles: {  }
+allow_revisions: false
+new_revision: false

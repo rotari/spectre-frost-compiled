@@ -1,0 +1,12 @@
+uuid: abd85013-036d-4051-ac64-1baa932f6033
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Rd9dbGBV8LHmqO3Kicb0HNfrm5LJWO4shuIJhtJIi-k
+id: blockquote
+label: Blockquote
+icon_uuid: null
+icon_default: null
+description: 'A long textual quote, styled with affectation'
+behavior_plugins: {  }

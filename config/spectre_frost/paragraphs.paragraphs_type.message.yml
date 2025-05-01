@@ -1,0 +1,12 @@
+uuid: 5478cfa1-f27b-4cab-a719-872d9f2ae7d9
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 8Sud4E24Cc2PhEWEQ88oru0RDg7dpCdc7yYeKTLg9ik
+id: message
+label: Message
+icon_uuid: null
+icon_default: null
+description: 'Dismissible system alerts used to show status, warnings, and errors to users'
+behavior_plugins: {  }

@@ -1,0 +1,24 @@
+uuid: 5df2039c-abcc-4916-8cf5-a22608c5f794
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.paragraph.content
+    - field.field.paragraph.spacer.field_style_vspx
+    - paragraphs.paragraphs_type.spacer
+_core:
+  default_config_hash: 0euSmq-92Sah0Cz5UfRGVv8FfOqsyLfvX5cIaDwl-Fw
+id: paragraph.spacer.content
+targetEntityType: paragraph
+bundle: spacer
+mode: content
+content:
+  field_style_vspx:
+    type: options_select
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

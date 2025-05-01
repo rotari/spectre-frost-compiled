@@ -1,0 +1,19 @@
+uuid: e54bb781-46aa-4ceb-b2e7-f0153f71bd7c
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+_core:
+  default_config_hash: g_gdkTDYjf4iauIQyNtVZkaYUHi9Xj4Pprc3FJWGM9g
+name: Eveniment
+type: event
+description: 'For in-person, online, or other kinds of events. Events are distinct from other content in that the time and place are the main pieces of information to convey to the reader.'
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

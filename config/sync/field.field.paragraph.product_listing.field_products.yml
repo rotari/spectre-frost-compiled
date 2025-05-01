@@ -1,0 +1,31 @@
+uuid: fe670c5c-231d-4f06-b6ed-a7d28b8319f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.default
+    - field.storage.paragraph.field_products
+    - paragraphs.paragraphs_type.product_listing
+_core:
+  default_config_hash: nG3j7OUPwxf72Q0jOFe8gC2ZESzkQA_KhGj5hsqi8A4
+id: paragraph.product_listing.field_products
+field_name: field_products
+entity_type: paragraph
+bundle: product_listing
+label: Products
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:commerce_product'
+  handler_settings:
+    target_bundles:
+      default: default
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

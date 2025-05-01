@@ -1,0 +1,17 @@
+uuid: 2d02d449-a292-4a62-8327-2e1b62f344c2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.spacer.field_style_vspx
+    - paragraphs.paragraphs_type.spacer
+_core:
+  default_config_hash: D390gZGx1wEg4Z2ouvZN8L_vJa4VOQ-dgF33bzWmIfQ
+id: paragraph.spacer.default
+targetEntityType: paragraph
+bundle: spacer
+mode: default
+content: {  }
+hidden:
+  field_style_vspx: true
+  search_api_excerpt: true

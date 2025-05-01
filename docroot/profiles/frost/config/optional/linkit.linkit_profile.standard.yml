@@ -1,0 +1,31 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+label: Standard
+id: standard
+description: 'The most common settings for most users on most sites most of the time.'
+matchers:
+  a9b4c8ec-d977-4de7-a13e-05aa54002137:
+    id: 'entity:node'
+    uuid: a9b4c8ec-d977-4de7-a13e-05aa54002137
+    settings:
+      metadata: '[node:title]'
+      bundles: {  }
+      group_by_bundle: true
+      substitution_type: canonical
+      include_unpublished: true
+      limit: 100
+    weight: 0
+  e7e9d0e8-7ecd-4a58-aa71-06f3936ce765:
+    id: 'entity:taxonomy_term'
+    uuid: e7e9d0e8-7ecd-4a58-aa71-06f3936ce765
+    settings:
+      metadata: '[term:name]'
+      bundles: {  }
+      group_by_bundle: false
+      substitution_type: canonical
+      limit: 100
+    weight: 0

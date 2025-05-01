@@ -1,0 +1,23 @@
+uuid: 4cc90480-dc72-4739-ae6e-42bb6b488c9a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.loadout
+  module:
+    - text
+id: node.loadout.body
+field_name: body
+entity_type: node
+bundle: loadout
+label: Teaser
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

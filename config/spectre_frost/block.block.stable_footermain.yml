@@ -1,0 +1,28 @@
+uuid: f7ab160a-e517-4592-bc42-7005e6187a75
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer-main
+  module:
+    - block_class
+    - system
+  theme:
+    - stable
+_core:
+  default_config_hash: '-mx78RPvEg9Z9-NntO8Nd60dfuCrp6nVkYC2DNzYdQ4'
+id: stable_footermain
+theme: stable
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer-main'
+settings:
+  id: 'system_menu_block:footer-main'
+  label: 'Footer main'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

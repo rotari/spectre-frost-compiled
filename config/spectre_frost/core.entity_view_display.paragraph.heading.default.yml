@@ -1,0 +1,43 @@
+uuid: 12e633a0-a6ce-465f-8b77-67dca648b063
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.heading.field_heading
+    - field.field.paragraph.heading.field_image
+    - field.field.paragraph.heading.field_style_color_all
+    - field.field.paragraph.heading.field_style_fontweight
+    - field.field.paragraph.heading.field_style_headinglevel
+    - field.field.paragraph.heading.field_style_texttransform
+    - paragraphs.paragraphs_type.heading
+  module:
+    - frost_custom
+_core:
+  default_config_hash: 9Nw-kBvxYg8Rl3s8VDrxWkSPUJp1xNF3rwMy1HfEMCE
+id: paragraph.heading.default
+targetEntityType: paragraph
+bundle: heading
+mode: default
+content:
+  field_heading:
+    type: heading_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_image:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_style_color_all: true
+  field_style_fontweight: true
+  field_style_headinglevel: true
+  field_style_texttransform: true
+  search_api_excerpt: true

@@ -1,0 +1,12 @@
+uuid: 3e28a49b-88a4-459d-9e36-4dde3ac45c8e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Ncmr6p0QH_ByflZ37HJ_BZciTNvOMrVcO5Q9zZnY3J8
+id: cards
+label: Cards
+icon_uuid: null
+icon_default: null
+description: 'A layout of one or more card components, including stat and infographic cards'
+behavior_plugins: {  }

@@ -1,0 +1,32 @@
+uuid: 4bdc19d7-cc1e-44ec-92b9-035ebdfb387e
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: eAM_aycC0UZLHZmZ8yADWXTdglekemb2w3YDVcJuh0o
+id: paragraph.field_style_bgpx
+field_name: field_style_bgpx
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: background-position-x--left
+      label: Left
+    -
+      value: background-position-x--right
+      label: Right
+    -
+      value: background-position-x--center
+      label: Center
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

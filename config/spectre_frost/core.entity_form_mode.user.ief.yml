@@ -1,0 +1,12 @@
+uuid: 516f9f40-c899-4cf5-b307-86f459d03ade
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: rMJ3ayfeNNYzN8vqQhn1jHUeUaFhFSImt8XggPXIUvs
+id: user.ief
+label: ief
+targetEntityType: user
+cache: true

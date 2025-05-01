@@ -1,0 +1,51 @@
+display:
+  default:
+    display_title: Expert
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Filtru
+          reset_button_label: Resetează
+          exposed_sorts_label: 'Sortare după'
+          sort_asc_label: Ascendent
+          sort_desc_label: Descendent
+      pager:
+        options:
+          tags:
+            previous: ‹‹
+            next: ››
+          expose:
+            items_per_page_label: 'Elemente pe pagină'
+            items_per_page_options_all_label: '- Toate -'
+            offset_label: Decalaj
+      fields:
+        label:
+          label: Etichetă
+          separator: ', '
+        type:
+          label: Tip
+          separator: ', '
+        paragraphs__target_id:
+          separator: ', '
+        langcode:
+          label: Limba
+          separator: ', '
+        id:
+          label: ID
+          separator: ', '
+        changed:
+          label: Schimbat
+          separator: ', '
+        operations:
+          label: Operațiuni
+      filters:
+        label:
+          expose:
+            label: Etichetă
+          group_info:
+            label: Etichetă
+        type:
+          expose:
+            label: Tip
+  page_1:
+    display_title: Pagina

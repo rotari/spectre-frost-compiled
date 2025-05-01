@@ -1,0 +1,22 @@
+uuid: cd3167c7-b9cd-48f3-964a-9c2a81954802
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.imagine_loadout
+id: media.imagine_loadout.status
+field_name: status
+entity_type: media
+bundle: imagine_loadout
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

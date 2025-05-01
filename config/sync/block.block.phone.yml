@@ -1,0 +1,25 @@
+uuid: fe8ea6ad-7938-4ce7-ad2b-c6a8fc0c17a2
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact_info
+  theme:
+    - frost_theme
+third_party_settings:
+  block_class:
+    classes: null
+_core:
+  default_config_hash: to9a3uraRuVZ5ymzHX5W1e9dauvuG_NlHmgHMJ6ZUVM
+id: phone
+theme: frost_theme
+region: footer
+weight: -7
+provider: null
+plugin: phone
+settings:
+  id: phone
+  label: Phone
+  label_display: '0'
+  provider: contact_info
+visibility: {  }

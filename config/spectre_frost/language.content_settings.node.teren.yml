@@ -1,0 +1,18 @@
+uuid: d02fb4bd-2c44-4ac2-a6da-6dc4f3aae223
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.teren
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '1'
+id: node.teren
+target_entity_type_id: node
+target_bundle: teren
+default_langcode: ro
+language_alterable: false

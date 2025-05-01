@@ -1,0 +1,22 @@
+uuid: b30d4a59-a1b8-420e-bdc4-324346112f38
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - spectre_frost_theme
+_core:
+  default_config_hash: zd6wqpsZ1QDWYngPg8AZV9RNHeuO51Y2vYPFWWLlZXk
+id: spectre_frost_theme_messages
+theme: spectre_frost_theme
+region: pre_content
+weight: -7
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: ab093e96-6801-4d71-871c-a576d8a651a2
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact_info
+  theme:
+    - spectre_frost_theme
+_core:
+  default_config_hash: Ye5YE-hyj-WeoyFXcEOu3tbU43hyhGjkVVTqIGJ-60M
+id: spectre_frost_theme_phone
+theme: spectre_frost_theme
+region: footer
+weight: -7
+provider: null
+plugin: phone
+settings:
+  id: phone
+  label: Phone
+  label_display: '0'
+  provider: contact_info
+visibility: {  }

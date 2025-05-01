@@ -1,0 +1,12 @@
+uuid: 83c2eb72-8108-41c0-add5-19f51ac2d450
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: hpVzdmxIQzL1q6NjpLf8zg1XoZtOurcCruFvf7fGbHo
+id: media.square_small
+label: 'Square Small'
+targetEntityType: media
+cache: true

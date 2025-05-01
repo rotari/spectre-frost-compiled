@@ -1,0 +1,106 @@
+uuid: 3ed79029-675d-493c-8836-e9397a1ad845
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.table.field_data_charttitle
+    - field.field.paragraph.table.field_data_yaxis
+    - field.field.paragraph.table.field_style_graph
+    - field.field.paragraph.table.field_style_table_replace
+    - field.field.paragraph.table.field_table
+    - paragraphs.paragraphs_type.table
+  module:
+    - field_group
+    - tablefield
+third_party_settings:
+  field_group:
+    group_admin:
+      children:
+        - group_content
+        - group_settings
+      label: Admin
+      region: content
+      parent_name: ''
+      weight: 0
+      format_type: tabs
+      format_settings:
+        classes: ''
+        id: ''
+        direction: horizontal
+    group_content:
+      children:
+        - field_table
+      label: Content
+      region: content
+      parent_name: group_admin
+      weight: 8
+      format_type: tab
+      format_settings:
+        classes: ''
+        id: ''
+        formatter: open
+        description: ''
+        required_fields: false
+    group_settings:
+      children:
+        - field_data_charttitle
+        - field_style_graph
+        - field_style_table_replace
+        - field_data_yaxis
+      label: Settings
+      region: content
+      parent_name: group_admin
+      weight: 9
+      format_type: tab
+      format_settings:
+        classes: ''
+        id: ''
+        formatter: closed
+        description: ''
+        required_fields: false
+_core:
+  default_config_hash: 1VgVmOlA92wnakxuUTCwQ1o--CvEZc6rVnAl-ToUreM
+id: paragraph.table.default
+targetEntityType: paragraph
+bundle: table
+mode: default
+content:
+  field_data_charttitle:
+    type: string_textfield
+    weight: 4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_data_yaxis:
+    type: string_textfield
+    weight: 7
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_style_graph:
+    type: options_select
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_style_table_replace:
+    type: boolean_checkbox
+    weight: 6
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_table:
+    type: tablefield
+    weight: 1
+    region: content
+    settings:
+      input_type: textfield
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

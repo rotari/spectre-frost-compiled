@@ -1,0 +1,12 @@
+uuid: 2bda9c5a-d999-45b3-88c0-03da9735e260
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: tbNDcEFT9gVIhrHmJuC2kc0rR1PjowRwswmij8kfjRE
+id: rich_text
+label: 'Rich text'
+icon_uuid: null
+icon_default: null
+description: 'A what-you-see-is-what-you-get (WYSIWYG) editor that lets you put in formatted text like Microsoft Word'
+behavior_plugins: {  }

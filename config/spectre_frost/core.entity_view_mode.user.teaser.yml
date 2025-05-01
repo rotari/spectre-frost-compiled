@@ -1,0 +1,12 @@
+uuid: 66887b9a-20f1-4547-a70d-7793fbb8a23a
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: 16t6vYECSoSLSp7_7DNrC8KeoXMwJxRIrHagb63KLCY
+id: user.teaser
+label: Teaser
+targetEntityType: user
+cache: true

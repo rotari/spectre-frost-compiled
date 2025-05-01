@@ -1,0 +1,28 @@
+uuid: 5682cdf4-a2b3-4c38-905b-c1b33192afba
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.messages
+    - field.field.block_content.messages.field_paragraphs
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: q0aVlShEgiP3YkGVodkzSpxJL8RfcdnT-xhYh5w1fY4
+id: block_content.messages.default
+targetEntityType: block_content
+bundle: messages
+mode: default
+content:
+  field_paragraphs:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

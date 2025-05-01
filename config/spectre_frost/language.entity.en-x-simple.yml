@@ -1,0 +1,15 @@
+uuid: 814573dd-08f6-4db7-9aea-de7a0f324b8b
+langcode: en-x-simple
+status: true
+dependencies:
+  module:
+    - disable_language
+third_party_settings:
+  disable_language:
+    disable: true
+    redirect_language: en
+id: en-x-simple
+label: 'Simple English'
+direction: ltr
+weight: 1
+locked: false

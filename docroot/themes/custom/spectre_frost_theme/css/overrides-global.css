@@ -1,0 +1,75 @@
+#main-navigation a {
+  font-family: var(--font-family--secondary) !important;
+}
+
+#block-spectre-frost-theme-branding img {
+  height: 67px !important;
+}
+
+body {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: clamp(2.2rem, 4vw, 5rem) !important;
+}
+
+h2 {
+  /*font-size: clamp(2.5rem, 3vw, 4rem);*/
+  font-weight: 400;
+}
+
+#block-spectre-frost-theme-invertedlogo {
+  img {
+    height: 100px !important;
+  }
+}
+
+
+.background-image--default {
+  background-image: url('../images/bg_hero_default.jpg') !important;
+}
+
+.view-id-tags.view-display-id-block-1 .view-content{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.region--content .entity-bundle-stripe{
+  padding: calc(var(--spacing--single)) calc(2 * var(--spacing--single)) !important;
+}
+
+@media (max-width: 767px) {
+  .region--content .entity-bundle-stripe {
+    padding: calc(var(--spacing--single)) calc(2 * var(--spacing--single)) !important;
+  }
+
+  .padding-horizontal--4 {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+}
+
+.entity-bundle-stripe > .contextual > .inner {
+  max-width: var(--layout--content-area) !important;
+  margin: 0 auto !important;
+}
+
+.child-inner-max-width--inherit > .inner {
+  max-width: var(--layout--content-area) !important;
+  margin: 0 auto !important;
+
+}
+.field-name--field-sponsori {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.field-name--field-membri {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.field-name--field-tags{
+  margin-bottom: 0px !important;
+}

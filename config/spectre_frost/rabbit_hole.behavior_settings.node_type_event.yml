@@ -1,0 +1,14 @@
+uuid: eda08873-2827-4d96-b934-e3f4e3a5b10a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.event
+id: node_type_event
+entity_type_id: node_type
+entity_id: event
+action: display_page
+allow_override: 0
+redirect: ''
+redirect_code: 301
+redirect_fallback_action: access_denied

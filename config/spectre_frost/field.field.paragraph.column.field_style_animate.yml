@@ -1,0 +1,25 @@
+uuid: e293651d-fde3-4139-a1a1-ef6bf1e026bd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_style_animate
+    - paragraphs.paragraphs_type.column
+_core:
+  default_config_hash: B0Gzz-GYviiKOaFdpXbbi2ZRb-JGX7D3vrAvujixqfc
+id: paragraph.column.field_style_animate
+field_name: field_style_animate
+entity_type: paragraph
+bundle: column
+label: Animate
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: js--to-animate
+  off_label: js--not-to-animate
+field_type: boolean

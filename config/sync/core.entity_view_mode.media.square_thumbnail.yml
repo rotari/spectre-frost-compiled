@@ -1,0 +1,12 @@
+uuid: 4c1aaf92-0307-451c-8d17-c80b782302bd
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: CL3ytB5rsI4VCUxCofmdvDfJfJYqiOqIzkFoDRR9oCI
+id: media.square_thumbnail
+label: 'Square thumbnail'
+targetEntityType: media
+cache: true

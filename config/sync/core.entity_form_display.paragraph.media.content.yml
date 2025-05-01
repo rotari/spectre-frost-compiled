@@ -1,0 +1,41 @@
+uuid: ffbbcad0-1429-4a38-af2b-cef8dfe81a94
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.paragraph.content
+    - field.field.paragraph.media.field_hotspots
+    - field.field.paragraph.media.field_link
+    - field.field.paragraph.media.field_media
+    - field.field.paragraph.media.field_text
+    - paragraphs.paragraphs_type.media
+  module:
+    - media_library
+    - media_library_edit
+_core:
+  default_config_hash: cZ7LGwgMSufy8r51T-FM5fOn_Jq8hwMfGi5KcAdpOKQ
+id: paragraph.media.content
+targetEntityType: paragraph
+bundle: media
+mode: content
+content:
+  field_media:
+    type: media_library_widget
+    weight: 0
+    region: content
+    settings:
+      media_types:
+        - audio
+        - document
+        - image
+        - remote_video
+        - video
+    third_party_settings:
+      media_library_edit:
+        show_edit: '1'
+hidden:
+  created: true
+  field_hotspots: true
+  field_link: true
+  field_text: true
+  status: true

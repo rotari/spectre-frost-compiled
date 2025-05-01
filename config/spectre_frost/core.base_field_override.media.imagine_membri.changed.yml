@@ -1,0 +1,18 @@
+uuid: c272be6c-cfd7-406f-abfe-9e88b336669e
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.imagine_membri
+id: media.imagine_membri.changed
+field_name: changed
+entity_type: media
+bundle: imagine_membri
+label: Changed
+description: 'The time the media item was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

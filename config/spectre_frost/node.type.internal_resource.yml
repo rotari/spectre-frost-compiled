@@ -1,0 +1,17 @@
+uuid: 1fe12712-0640-4615-b1d5-b6144097f6c5
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Internal Resource'
+type: internal_resource
+description: 'Pagina accesibila doar untilizatorilor autentificati.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

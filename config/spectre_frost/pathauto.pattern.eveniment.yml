@@ -1,0 +1,24 @@
+uuid: 10af66c1-1616-4414-b3b4-31a0647672ae
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: UF0Nn9BL89WHC0aatpuWhm6JWByLe9HAtBbLnXjgo-0
+id: eveniment
+label: Eveniment
+type: 'canonical_entities:node'
+pattern: 'evenimente/[node:title]'
+selection_criteria:
+  1691c407-96f6-42a9-812d-9972a59246f7:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 1691c407-96f6-42a9-812d-9972a59246f7
+    context_mapping:
+      node: node
+    bundles:
+      event: event
+selection_logic: and
+weight: -5
+relationships: {  }

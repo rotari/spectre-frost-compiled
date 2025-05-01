@@ -1,0 +1,26 @@
+uuid: a51bee69-996b-4d6a-8ea7-510e254bdf67
+langcode: en
+status: true
+dependencies:
+  theme:
+    - frost_theme
+third_party_settings:
+  block_class:
+    classes: null
+_core:
+  default_config_hash: ruq6QIz2wYtbO8ihQThxI-Sj5nluB9Bb013o2dZUlWU
+id: alerts
+theme: frost_theme
+region: alerts
+weight: 0
+provider: null
+plugin: 'block_content:6f12931c-87ff-4a14-999f-854599ab183c'
+settings:
+  id: 'block_content:6f12931c-87ff-4a14-999f-854599ab183c'
+  label: Alerts
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

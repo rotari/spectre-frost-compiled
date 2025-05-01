@@ -1,0 +1,78 @@
+uuid: 4790e137-eba5-4451-b59d-cccd8a8cb0e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.message.field_style_messageseverity
+    - field.field.paragraph.message.field_text
+    - paragraphs.paragraphs_type.message
+  module:
+    - field_group
+    - text
+third_party_settings:
+  field_group:
+    group_admin:
+      children:
+        - group_content
+        - group_settings
+      label: Admin
+      region: content
+      parent_name: ''
+      weight: 0
+      format_type: tabs
+      format_settings:
+        classes: ''
+        id: ''
+        direction: horizontal
+    group_content:
+      children:
+        - field_text
+      label: Content
+      region: content
+      parent_name: group_admin
+      weight: 5
+      format_type: tab
+      format_settings:
+        classes: ''
+        id: ''
+        formatter: open
+        description: ''
+        required_fields: false
+    group_settings:
+      children:
+        - field_style_messageseverity
+      label: Settings
+      region: content
+      parent_name: group_admin
+      weight: 6
+      format_type: tab
+      format_settings:
+        classes: ''
+        id: ''
+        formatter: closed
+        description: ''
+        required_fields: false
+_core:
+  default_config_hash: YHLihaYH-UIVE49aOWhP5m9ro4kAxEBJHnHQqKOAMoc
+id: paragraph.message.default
+targetEntityType: paragraph
+bundle: message
+mode: default
+content:
+  field_style_messageseverity:
+    type: options_select
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_text:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

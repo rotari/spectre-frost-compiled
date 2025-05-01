@@ -1,0 +1,6 @@
+_core:
+  default_config_hash: FI_o6pXo9Sg8u5Skvm5ywNOW8AirGzwiRLEpXkNzMdc
+add_license: true
+minifier: 4
+ratio_max: 0.9
+ratio_min: 0.1

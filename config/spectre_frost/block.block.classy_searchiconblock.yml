@@ -1,0 +1,23 @@
+uuid: 234f85d3-ea2b-4380-ba26-bd0cdec0045b
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - frost_custom
+  theme:
+    - classy
+_core:
+  default_config_hash: LKPLQ5NF9ig3dpUV7uuxzX-9JwXYVdFG5YfN3Zx00s4
+id: classy_searchiconblock
+theme: classy
+region: sidebar_first
+weight: -7
+provider: null
+plugin: search_icon_block
+settings:
+  id: search_icon_block
+  label: 'Search Icon Block'
+  label_display: '0'
+  provider: frost_custom
+visibility: {  }

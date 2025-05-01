@@ -1,0 +1,27 @@
+uuid: a51428a6-c7e6-4431-aae7-ca07bd3f9249
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:messages:6f12931c-87ff-4a14-999f-854599ab183c'
+  module:
+    - block_content
+  theme:
+    - spectre_frost_theme
+_core:
+  default_config_hash: ja9-rRDSWDrwVkYAaOLPSpCrq9pdMZGBf46ObfNyWhE
+id: spectre_frost_theme_alerts
+theme: spectre_frost_theme
+region: alerts
+weight: 0
+provider: null
+plugin: 'block_content:6f12931c-87ff-4a14-999f-854599ab183c'
+settings:
+  id: 'block_content:6f12931c-87ff-4a14-999f-854599ab183c'
+  label: Alerts
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

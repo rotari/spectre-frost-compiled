@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: term_listing
+label: 'Term listing'
+icon_uuid: null
+icon_default: null
+description: 'Show teasers of taxonomy terms that link to their detail/listing pages'
+behavior_plugins: {  }

@@ -1,0 +1,26 @@
+uuid: a546efde-d70b-4905-acd2-65005462866e
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - contact_info
+  theme:
+    - spectre_frost_theme
+third_party_settings:
+  block_class:
+    classes: margin-top--40px
+_core:
+  default_config_hash: Of29ptvQ2EoVa_pM6H9Y5VyhgitV_Uui-89FOYQL73I
+id: spectre_frost_theme_social
+theme: spectre_frost_theme
+region: footer_cta
+weight: -6
+provider: null
+plugin: social
+settings:
+  id: social
+  label: Social
+  label_display: '0'
+  provider: contact_info
+visibility: {  }

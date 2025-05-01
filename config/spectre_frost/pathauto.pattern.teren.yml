@@ -1,0 +1,24 @@
+uuid: 7db4728f-5b99-4fdf-8508-72431c9842f1
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: UF0Nn9BL89WHC0aatpuWhm6JWByLe9HAtBbLnXjgo-0
+id: teren
+label: Teren
+type: 'canonical_entities:node'
+pattern: 'terenuri/[node:title]'
+selection_criteria:
+  6082326a-37b5-4f05-a55f-230f350a4cf8:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 6082326a-37b5-4f05-a55f-230f350a4cf8
+    context_mapping:
+      node: node
+    bundles:
+      teren: teren
+selection_logic: and
+weight: -5
+relationships: {  }

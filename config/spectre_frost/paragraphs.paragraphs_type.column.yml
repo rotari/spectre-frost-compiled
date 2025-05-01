@@ -1,0 +1,12 @@
+uuid: d3282a8d-5a89-4aad-a0a7-21dd1347d2a1
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: UsbcohiVp1G1PxGKEsWYW8RTPn7wOKculAhZFVSBMxo
+id: column
+label: Column
+icon_uuid: 08a8bcff-ef10-4796-959f-436a9a111726
+icon_default: null
+description: 'A single column within a layout'
+behavior_plugins: {  }

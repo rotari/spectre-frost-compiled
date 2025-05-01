@@ -1,0 +1,30 @@
+uuid: 197c9693-6d27-4a45-8759-139eb62c7daa
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.paragraph.content
+    - field.field.paragraph.message.field_style_messageseverity
+    - field.field.paragraph.message.field_text
+    - paragraphs.paragraphs_type.message
+  module:
+    - text
+_core:
+  default_config_hash: R7Nspc7W1eGmWBRkGMDcsgLG7P_93zYVjab84wx5pYw
+id: paragraph.message.content
+targetEntityType: paragraph
+bundle: message
+mode: content
+content:
+  field_text:
+    type: text_textarea
+    weight: 0
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_style_messageseverity: true
+  status: true

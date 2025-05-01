@@ -1,0 +1,8 @@
+{% apply spaceless %}
+  <{{ html_tag }}{{ attributes }}>
+    <a{{ anchor_attributes }}>+</a>
+    <div{{ content_attributes }}>
+      {{ content |without('contextual_links') }}
+    </div>
+  </{{ html_tag }}>
+{% endapply %}

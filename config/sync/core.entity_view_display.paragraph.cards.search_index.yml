@@ -1,0 +1,33 @@
+uuid: 78c8606b-6e6c-4ed8-a095-c1b25eea8b87
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.search_index
+    - field.field.paragraph.cards.field_cards
+    - field.field.paragraph.cards.field_style_layout
+    - paragraphs.paragraphs_type.cards
+  module:
+    - entity_reference_revisions
+    - field_formatter_class
+_core:
+  default_config_hash: Mx9kloIQJsAXfUJSffaLq--RjXsj5xOmdoq3PqVvvPs
+id: paragraph.cards.search_index
+targetEntityType: paragraph
+bundle: cards
+mode: search_index
+content:
+  field_cards:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: search_index
+      link: ''
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+    weight: 0
+    region: content
+hidden:
+  field_style_layout: true
+  search_api_excerpt: true

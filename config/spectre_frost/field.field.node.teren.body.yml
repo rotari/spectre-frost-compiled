@@ -1,0 +1,23 @@
+uuid: 00b80d51-7cd2-4016-a038-a362d3399d70
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.teren
+  module:
+    - text
+id: node.teren.body
+field_name: body
+entity_type: node
+bundle: teren
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

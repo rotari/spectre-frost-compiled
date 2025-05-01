@@ -1,0 +1,70 @@
+uuid: 25b4842b-a4db-496a-afaa-11d0e3f1d4a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.loadout.body
+    - field.field.node.loadout.field_components
+    - field.field.node.loadout.field_image
+    - field.field.node.loadout.field_membri
+    - field.field.node.loadout.field_meta
+    - field.field.node.loadout.field_sponsori
+    - field.field.node.loadout.field_tags
+    - node.type.loadout
+  module:
+    - entity_reference_revisions
+    - metatag
+    - user
+id: node.loadout.default
+targetEntityType: node
+bundle: loadout
+mode: default
+content:
+  field_components:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_membri:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_meta:
+    type: metatag_empty_formatter
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_sponsori:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_tags:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  body: true
+  field_image: true
+  frost_submitted: true
+  langcode: true
+  linked_title: true
+  links: true
+  search_api_excerpt: true

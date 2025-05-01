@@ -1,0 +1,42 @@
+uuid: 75da1272-918c-4638-9264-af6dfd315f6b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.article_type.field_hero
+    - field.field.taxonomy_term.article_type.field_image
+    - field.field.taxonomy_term.article_type.field_notes
+    - field.field.taxonomy_term.article_type.field_scratch
+    - field.field.taxonomy_term.article_type.field_sections
+    - field.field.taxonomy_term.article_type.field_seo
+    - taxonomy.vocabulary.article_type
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: IX2MbH2mgGCX65dBBpMGp8FR33qA8PImlZPoVmbOH4E
+id: taxonomy_term.article_type.default
+targetEntityType: taxonomy_term
+bundle: article_type
+mode: default
+content:
+  field_sections:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  breadcrumb: true
+  description: true
+  field_hero: true
+  field_image: true
+  field_notes: true
+  field_scratch: true
+  field_seo: true
+  langcode: true
+  linked_title: true
+  readmore: true
+  search_api_excerpt: true

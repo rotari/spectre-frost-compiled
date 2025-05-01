@@ -1,0 +1,19 @@
+uuid: 0efa6800-b2c6-49aa-9522-2735cfd6c320
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.product_listing.field_style_layout
+    - field.field.paragraph.product_listing.field_viewmode
+    - paragraphs.paragraphs_type.product_listing
+_core:
+  default_config_hash: Rac1zMBhXgIlgUdqvk3InCB7lbytdRlweds7dc1NO5Y
+id: paragraph.product_listing.default
+targetEntityType: paragraph
+bundle: product_listing
+mode: default
+content: {  }
+hidden:
+  field_style_layout: true
+  field_viewmode: true
+  search_api_excerpt: true

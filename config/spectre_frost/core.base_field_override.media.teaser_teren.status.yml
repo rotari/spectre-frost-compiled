@@ -1,0 +1,22 @@
+uuid: 6c4e3f66-2b8d-4325-9b1f-17e0cc170cfd
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.teaser_teren
+id: media.teaser_teren.status
+field_name: status
+entity_type: media
+bundle: teaser_teren
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

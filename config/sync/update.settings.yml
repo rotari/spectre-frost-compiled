@@ -1,0 +1,13 @@
+_core:
+  default_config_hash: GZP9Aa_Z3cQw4PHMrGJPvk3aKaj--EyKlB-GZp1eW7A
+check:
+  disabled_extensions: true
+  interval_days: 1
+fetch:
+  url: ''
+  max_attempts: 2
+  timeout: 30
+notification:
+  emails:
+    - admin@example.com
+  threshold: all

@@ -1,0 +1,14 @@
+uuid: d8459f41-f8b3-44e2-a7a8-c155b45a2165
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.sponsor
+id: node_type_sponsor
+entity_type_id: node_type
+entity_id: sponsor
+action: display_page
+allow_override: 1
+redirect: ''
+redirect_code: 301
+redirect_fallback_action: access_denied

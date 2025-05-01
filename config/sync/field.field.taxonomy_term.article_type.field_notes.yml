@@ -1,0 +1,21 @@
+uuid: 1876aa4f-8756-4738-814b-3cfe928848e0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_notes
+    - taxonomy.vocabulary.article_type
+_core:
+  default_config_hash: VcobSMfleYUhkPb8nX0mMEby8UmfxHK4O5ACii-DiOg
+id: taxonomy_term.article_type.field_notes
+field_name: field_notes
+entity_type: taxonomy_term
+bundle: article_type
+label: 'Notes (internal)'
+description: "Let your team know what's important about this content and any other priorities or @todos that may be relevant."
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,0 +1,24 @@
+uuid: 5b2a50d6-02fa-428d-a6ae-b9fe10aef823
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+    - media
+    - system
+    - toolbar
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access toolbar'
+  - 'cancel account'
+  - 'edit own comments'
+  - 'post comments'
+  - 'skip comment approval'
+  - 'view media'

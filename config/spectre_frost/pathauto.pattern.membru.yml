@@ -1,0 +1,24 @@
+uuid: f42dfecb-e774-4068-b4d2-faabb3b5d06a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: UF0Nn9BL89WHC0aatpuWhm6JWByLe9HAtBbLnXjgo-0
+id: membru
+label: Membru
+type: 'canonical_entities:node'
+pattern: 'membri/[node:title]'
+selection_criteria:
+  91ec9861-0fb7-4bf1-965d-c5c761cdf2c4:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 91ec9861-0fb7-4bf1-965d-c5c761cdf2c4
+    context_mapping:
+      node: node
+    bundles:
+      membri: membri
+selection_logic: and
+weight: -5
+relationships: {  }

@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - frost_custom
+  theme:
+    - frost_theme
+third_party_settings:
+  block_class:
+    classes: null
+id: invertedlogo
+theme: frost_theme
+region: footer
+weight: -9
+provider: null
+plugin: inverted_logo_block
+settings:
+  id: inverted_logo_block
+  label: 'Inverted Logo'
+  label_display: '0'
+  provider: frost_custom
+visibility: {  }

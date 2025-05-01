@@ -1,0 +1,23 @@
+uuid: ec0f8b15-f62a-4e32-923e-b09d3cc7ac5f
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - frost_custom
+  theme:
+    - classy
+_core:
+  default_config_hash: PfBSoRud1wmEZcAO3SgZJpeCUO7Bm-A76m29vB03Hs0
+id: classy_cookienotice
+theme: classy
+region: sidebar_first
+weight: 0
+provider: null
+plugin: cookie_block
+settings:
+  id: cookie_block
+  label: 'Cookie notice'
+  label_display: '0'
+  provider: frost_custom
+visibility: {  }

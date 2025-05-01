@@ -1,0 +1,21 @@
+uuid: 5084fd25-a03b-4f3b-a080-6955b0d7a452
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+    - text
+_core:
+  default_config_hash: nQgzjYacKBvgOXqqk7SaMOlwkpaTYKUJW3qWKxINrl4
+id: taxonomy_term.field_scratch
+field_name: field_scratch
+entity_type: taxonomy_term
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

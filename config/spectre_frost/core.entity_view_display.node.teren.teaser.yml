@@ -1,0 +1,81 @@
+uuid: 5fdda5eb-b74e-4f5c-be8f-7531903605c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.teren.body
+    - field.field.node.teren.field_components
+    - field.field.node.teren.field_image
+    - field.field.node.teren.field_link_catre_teren
+    - field.field.node.teren.field_meta
+    - field.field.node.teren.field_tags
+    - node.type.teren
+  module:
+    - field_formatter_class
+    - field_group
+    - text
+    - user
+third_party_settings:
+  field_group:
+    group_text_contents:
+      children:
+        - linked_title
+        - body
+      label: 'Text contents'
+      parent_name: ''
+      region: content
+      weight: 1
+      format_type: html_element
+      format_settings:
+        classes: 'padding-horizontal--2 padding-vertical--2 flex--1'
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+id: node.teren.teaser
+targetEntityType: node
+bundle: teren
+mode: teaser
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_image:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: teaser
+      link: false
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+    weight: 0
+    region: content
+  linked_title:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  field_components: true
+  field_link_catre_teren: true
+  field_meta: true
+  field_tags: true
+  frost_submitted: true
+  langcode: true
+  search_api_excerpt: true

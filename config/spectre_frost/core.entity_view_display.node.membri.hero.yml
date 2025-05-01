@@ -1,0 +1,111 @@
+uuid: 54e08411-b724-42ec-9ba6-305004a37017
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.hero
+    - field.field.node.membri.body
+    - field.field.node.membri.field_components
+    - field.field.node.membri.field_image
+    - field.field.node.membri.field_meta
+    - field.field.node.membri.field_nickname
+    - node.type.membri
+  module:
+    - field_group
+    - user
+third_party_settings:
+  field_group:
+    group_flex_wrapper:
+      children:
+        - group_t
+        - group_imagery
+      label: 'Flex wrapper'
+      parent_name: ''
+      region: content
+      weight: 0
+      format_type: html_element
+      format_settings:
+        classes: 'display--flex flex-direction--row layout--flex-row justify-content--center align-items--center'
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+    group_t:
+      children:
+        - linked_title
+        - field_nickname
+      label: 'Title area'
+      parent_name: group_flex_wrapper
+      region: content
+      weight: 20
+      format_type: html_element
+      format_settings:
+        classes: 'flex--2 display--flex flex-direction--column justify-content--center padding-horizontal--4 text-align--left'
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+    group_imagery:
+      children:
+        - field_image
+      label: Imagery
+      parent_name: group_flex_wrapper
+      region: content
+      weight: 21
+      format_type: html_element
+      format_settings:
+        classes: 'display--flex flex-direction--column flex--1 justify-content--center text-align--center'
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+id: node.membri.hero
+targetEntityType: node
+bundle: membri
+mode: hero
+content:
+  field_image:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: true
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_nickname:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  linked_title:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  body: true
+  field_components: true
+  field_meta: true
+  frost_submitted: true
+  langcode: true
+  links: true
+  search_api_excerpt: true

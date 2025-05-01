@@ -1,0 +1,22 @@
+uuid: dc50f1fb-fc9e-4446-a69f-50aae361ed62
+langcode: en
+status: true
+dependencies:
+  module:
+    - frost_custom
+  theme:
+    - spectre_frost_theme
+_core:
+  default_config_hash: ovBq2khmXruCdezCCA_9_39kKE5mbzKUXiDeayEaOm4
+id: spectre_frost_theme_heroorpagetitle
+theme: spectre_frost_theme
+region: splash
+weight: 0
+provider: null
+plugin: hero_title_block
+settings:
+  id: hero_title_block
+  label: 'Hero or Page Title'
+  label_display: '0'
+  provider: frost_custom
+visibility: {  }

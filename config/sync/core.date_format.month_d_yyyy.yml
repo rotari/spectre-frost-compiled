@@ -1,0 +1,10 @@
+uuid: 3fe07b4b-be95-4f32-a721-e7d49d4755bf
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Y0hzSXN9D3loiuOQuXopQ4UKmzjwUjnhz0DVrpMTr0w
+id: month_d_yyyy
+label: 'Month D, YYYY'
+locked: false
+pattern: 'F j, Y'

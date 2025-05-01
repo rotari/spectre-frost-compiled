@@ -1,0 +1,33 @@
+uuid: f283837c-7ff8-4012-8140-bc2691e4b584
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_seo
+    - node.type.page
+    - paragraphs.paragraphs_type.seo
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: j5YQjXzzEG3DOO_9aPGHZ3g0i6IGHP36_ViRkppCfJg
+id: node.page.field_seo
+field_name: field_seo
+entity_type: node
+bundle: page
+label: SEO
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      seo: seo
+    negate: 0
+    target_bundles_drag_drop:
+      seo:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

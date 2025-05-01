@@ -1,0 +1,20 @@
+uuid: 57803be7-9124-4cde-8655-024bfaa32f98
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: UK6sRyfpj1d0oC8snV8gKjctT7HTAjukcssOJNW3c4U
+id: paragraph.field_seo_nofollow
+field_name: field_seo_nofollow
+entity_type: paragraph
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

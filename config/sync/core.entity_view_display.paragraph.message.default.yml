@@ -1,0 +1,27 @@
+uuid: cda8da94-e767-489d-af77-8e4777e90fc9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.message.field_style_messageseverity
+    - field.field.paragraph.message.field_text
+    - paragraphs.paragraphs_type.message
+  module:
+    - text
+_core:
+  default_config_hash: h2l58eCuOBSH5Pd3P1HpIZKW9EUDYn1TUXCiwIjBfV8
+id: paragraph.message.default
+targetEntityType: paragraph
+bundle: message
+mode: default
+content:
+  field_text:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_style_messageseverity: true
+  search_api_excerpt: true

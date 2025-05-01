@@ -1,0 +1,31 @@
+uuid: f5f49372-ab78-4b3a-8822-a1b9432206f7
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_checkout
+    - commerce_order
+    - commerce_payment
+    - commerce_product
+    - honeypot
+    - media
+    - styleguide
+    - system
+_core:
+  default_config_hash: 90Yq61ztMl5orf0HA2qg6WUw_hASygFE7Mt65OHF_dE
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access checkout'
+  - 'access content'
+  - 'access user profiles'
+  - 'bypass honeypot protection'
+  - 'cancel account'
+  - 'manage own commerce_payment_method'
+  - 'use search_api_autocomplete for search'
+  - 'view commerce_product'
+  - 'view media'
+  - 'view own commerce_order'
+  - 'view style guides'

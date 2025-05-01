@@ -1,0 +1,18 @@
+uuid: 26fa6225-c1a6-42d7-8850-bc574a5925c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.iframe
+id: paragraph.iframe.created
+field_name: created
+entity_type: paragraph
+bundle: iframe
+label: 'Authored on'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

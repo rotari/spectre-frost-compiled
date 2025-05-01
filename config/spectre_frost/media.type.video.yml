@@ -1,0 +1,18 @@
+uuid: d25fac1f-1e7b-4de4-8064-f4d2f194d112
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: bdZrSY6qQ-aSMB-z58ccSRq9eSdV-Cy6TB8DlSLjd0g
+id: video
+label: Video
+description: "Upload your own mp4 video files rather than embedding from a third-party service. Should only be used for small videos, especially stripe backgrounds, where size and bandwidth aren't a concern."
+source: video_file
+queue_thumbnail_downloads: false
+new_revision: true
+source_configuration:
+  source_field: field_media_video_file
+field_map:
+  name: name
+  mimetype: field_media_mimetype
+  filesize: field_media_filesize

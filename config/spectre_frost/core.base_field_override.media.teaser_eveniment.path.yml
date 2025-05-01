@@ -1,0 +1,20 @@
+uuid: 4290d5b7-8782-454c-a615-1523ca4de701
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.teaser_eveniment
+  module:
+    - path
+id: media.teaser_eveniment.path
+field_name: path
+entity_type: media
+bundle: teaser_eveniment
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

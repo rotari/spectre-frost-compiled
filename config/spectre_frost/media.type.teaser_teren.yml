@@ -1,0 +1,20 @@
+uuid: ba6f19f2-29dd-4d75-8de4-1481eeb2b9db
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: oJRtPtHYGyfQRcttOMs_oINsBmOAUx3DSY2Afechwqg
+id: teaser_teren
+label: 'Teaser Teren'
+description: 'Images to display on the site, with the option to add alt text and other metadata.'
+source: image
+queue_thumbnail_downloads: false
+new_revision: true
+source_configuration:
+  source_field: field_media_image
+field_map:
+  name: name
+  mimetype: field_media_mimetype
+  filesize: field_media_filesize
+  width: field_media_width
+  height: field_media_height

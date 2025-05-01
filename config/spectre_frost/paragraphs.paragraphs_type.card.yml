@@ -1,0 +1,17 @@
+uuid: 235145fd-b07c-4a34-b5ab-d71f4d32bb2e
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_library
+third_party_settings:
+  paragraphs_library:
+    allow_library_conversion: true
+_core:
+  default_config_hash: mWX1hYycrxavh8aXl3DJg3coHXp_2EsNelcqEo92M4M
+id: card
+label: Card
+icon_uuid: null
+icon_default: null
+description: 'A container for an image, title, text, and a link. Most card content is optional.'
+behavior_plugins: {  }

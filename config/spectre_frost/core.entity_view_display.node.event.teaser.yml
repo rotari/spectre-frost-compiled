@@ -1,0 +1,115 @@
+uuid: 72fec109-2e18-414e-bc3f-6cac3f9e863c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.event.body
+    - field.field.node.event.field_components
+    - field.field.node.event.field_date
+    - field.field.node.event.field_image
+    - field.field.node.event.field_location
+    - field.field.node.event.field_membri
+    - field.field.node.event.field_meta
+    - field.field.node.event.field_notes
+    - field.field.node.event.field_scratch
+    - field.field.node.event.field_sections
+    - field.field.node.event.field_sponsori
+    - field.field.node.event.field_tags
+    - node.type.event
+  module:
+    - datetime_range
+    - field_formatter_class
+    - field_group
+    - text
+    - user
+third_party_settings:
+  field_group:
+    group_text_contents:
+      children:
+        - linked_title
+        - field_date
+        - field_location
+        - body
+      label: 'Text contents'
+      parent_name: ''
+      region: content
+      weight: 1
+      format_type: html_element
+      format_settings:
+        classes: 'padding-horizontal--2 padding-vertical--2 flex--1'
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+_core:
+  default_config_hash: GHDKusk34pK7uffqFMItJUOFI5qhXX9UwZTXs8CMLws
+id: node.event.teaser
+targetEntityType: node
+bundle: event
+mode: teaser
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_date:
+    type: daterange_default
+    label: hidden
+    settings:
+      timezone_override: ''
+      format_type: medium
+      separator: '-'
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_image:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: teaser
+      link: false
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+    weight: 0
+    region: content
+  field_location:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  linked_title:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
+hidden:
+  breadcrumb: true
+  field_components: true
+  field_membri: true
+  field_meta: true
+  field_notes: true
+  field_scratch: true
+  field_sections: true
+  field_sponsori: true
+  field_tags: true
+  frost_submitted: true
+  langcode: true
+  search_api_excerpt: true

@@ -1,0 +1,20 @@
+uuid: 09112f40-2aad-4974-b474-00dffc064f3c
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.imagine_loadout
+id: media.imagine_loadout.uid
+field_name: uid
+entity_type: media
+bundle: imagine_loadout
+label: 'Authored by'
+description: 'The user ID of the author.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\media\Entity\Media::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

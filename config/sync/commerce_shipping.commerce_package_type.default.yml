@@ -1,0 +1,16 @@
+uuid: 0faadeea-5641-4589-a1e0-e2146c65a809
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: o8wTNDQbqHUpmW_ertL-voyeJRH_UhB3sMDUnQ3Hmx8
+id: default
+label: 'Standard Fedex 13x9x11'
+dimensions:
+  length: '13'
+  width: '9'
+  height: '11'
+  unit: in
+weight:
+  number: '1'
+  unit: lb

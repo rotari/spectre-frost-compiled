@@ -1,0 +1,29 @@
+uuid: 8158fa14-e59b-424d-aecf-9267e5b468cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.internal_page
+    - field.field.comment.internal_page.comment_body
+  module:
+    - text
+id: comment.internal_page.default
+targetEntityType: comment
+bundle: internal_page
+mode: default
+content:
+  comment_body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

@@ -1,0 +1,35 @@
+uuid: 444ca8f6-0d3d-4363-a0d6-175288f56c06
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.paragraph.content
+    - field.field.paragraph.table.field_data_charttitle
+    - field.field.paragraph.table.field_data_yaxis
+    - field.field.paragraph.table.field_style_graph
+    - field.field.paragraph.table.field_style_table_replace
+    - field.field.paragraph.table.field_table
+    - paragraphs.paragraphs_type.table
+  module:
+    - tablefield
+_core:
+  default_config_hash: od7zhwIDMV-clx1OVpEdri_ptYIu8QhLPOMDPqxXM7M
+id: paragraph.table.content
+targetEntityType: paragraph
+bundle: table
+mode: content
+content:
+  field_table:
+    type: tablefield
+    weight: 0
+    region: content
+    settings:
+      input_type: textfield
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_data_charttitle: true
+  field_data_yaxis: true
+  field_style_graph: true
+  field_style_table_replace: true
+  status: true

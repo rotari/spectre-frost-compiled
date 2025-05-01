@@ -1,0 +1,26 @@
+uuid: 6ba30d1c-b323-4008-a971-34cf821cb9aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.paragraph.settings
+    - field.field.paragraph.stripe_collection.field_section
+    - field.field.paragraph.stripe_collection.field_viewmode
+    - paragraphs.paragraphs_type.stripe_collection
+_core:
+  default_config_hash: 8KB_F8FJB1WtWuHzRRQ87krOO_1IZH5BdqlLrV9eLQA
+id: paragraph.stripe_collection.settings
+targetEntityType: paragraph
+bundle: stripe_collection
+mode: settings
+content:
+  field_viewmode:
+    type: options_select
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_section: true
+  status: true

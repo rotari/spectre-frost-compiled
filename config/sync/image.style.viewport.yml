@@ -1,0 +1,24 @@
+uuid: 693b0fbe-3428-4a40-b0c0-3fca7cb08059
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: YjL5-5hyIIR8ysucqk8s5qqS5iNaMBccPXJJFz3sPRY
+name: viewport
+label: Viewport
+effects:
+  fcb30dec-78cb-4931-af9c-71c4c186f695:
+    uuid: fcb30dec-78cb-4931-af9c-71c4c186f695
+    id: image_scale
+    weight: 1
+    data:
+      width: 1920
+      height: null
+      upscale: false
+  67e9ddbb-bdc8-4866-8297-8451df04b330:
+    uuid: 67e9ddbb-bdc8-4866-8297-8451df04b330
+    id: image_convert
+    weight: 2
+    data:
+      extension: webp
+pipeline: __default__

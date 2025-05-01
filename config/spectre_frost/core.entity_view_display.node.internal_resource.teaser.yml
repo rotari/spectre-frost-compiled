@@ -1,0 +1,44 @@
+uuid: 7e781686-c4a3-4333-8fe7-10a1038b35ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.internal_resource.body
+    - field.field.node.internal_resource.field_comments
+    - node.type.internal_resource
+  module:
+    - text
+    - user
+id: node.internal_resource.teaser
+targetEntityType: node
+bundle: internal_resource
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  frost_submitted:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  linked_title:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_comments: true
+  langcode: true
+  search_api_excerpt: true

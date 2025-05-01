@@ -1,0 +1,18 @@
+uuid: 5e463d30-5846-418e-a0d6-779cdf9d38bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.imagine_loadout
+id: media.imagine_loadout.created
+field_name: created
+entity_type: media
+bundle: imagine_loadout
+label: 'Authored on'
+description: 'The time the media item was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\media\Entity\Media::getRequestTime'
+settings: {  }
+field_type: created

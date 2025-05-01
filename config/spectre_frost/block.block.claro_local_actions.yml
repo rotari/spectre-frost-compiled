@@ -1,0 +1,22 @@
+uuid: fcf4b637-eb24-47b0-b178-66f7832e72f9
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+  theme:
+    - claro
+_core:
+  default_config_hash: IM-kZaf0UWvoe5AryjOJTq5UIg5GKN71KTgfOfnnpmM
+id: claro_local_actions
+theme: claro
+region: content
+weight: -10
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

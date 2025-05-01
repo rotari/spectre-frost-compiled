@@ -1,0 +1,23 @@
+uuid: 99e26a95-6b63-4603-97ef-bd2ae589f3b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_scratch
+    - node.type.page
+  module:
+    - text
+_core:
+  default_config_hash: nd2PSZsr0-6gxc2amWRIl_h5g_IUeJuFaR-Paru-M8g
+id: node.page.field_scratch
+field_name: field_scratch
+entity_type: node
+bundle: page
+label: 'Content to place (internal)'
+description: 'HTML from the old version of the site, copy sent from the client in an email, etc. This is stuff that should get put on the page at some point.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

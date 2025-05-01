@@ -1,0 +1,22 @@
+uuid: 6ca673b9-1c08-4c6e-a549-bf03601e5ea4
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.stripe
+id: paragraph.stripe.status
+field_name: status
+entity_type: paragraph
+bundle: stripe
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

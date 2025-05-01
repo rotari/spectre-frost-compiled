@@ -1,0 +1,12 @@
+uuid: 24aae6bc-74c6-420e-8a7c-ce2fba643712
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: yykQmg2MGFnnoIhcqjGSfz6PbvHBb8JDYM05MsjDTtI
+id: paragraph.teaser
+label: Teaser
+targetEntityType: paragraph
+cache: true

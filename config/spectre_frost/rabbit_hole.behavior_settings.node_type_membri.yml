@@ -1,0 +1,14 @@
+uuid: 679fb181-75ea-4066-bd1f-8be9f5227cf0
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.membri
+id: node_type_membri
+entity_type_id: node_type
+entity_id: membri
+action: display_page
+allow_override: 1
+redirect: ''
+redirect_code: 301
+redirect_fallback_action: access_denied

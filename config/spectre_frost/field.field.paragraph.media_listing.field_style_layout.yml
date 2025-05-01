@@ -1,0 +1,25 @@
+uuid: 78522d0e-8960-4cf3-ae0a-7b4a62e7e76c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_style_layout
+    - paragraphs.paragraphs_type.media_listing
+  module:
+    - options
+_core:
+  default_config_hash: e6dALmry0dkT4ybQZnba2BvWeXdq6NO_I7jMP0_VuFw
+id: paragraph.media_listing.field_style_layout
+field_name: field_style_layout
+entity_type: paragraph
+bundle: media_listing
+label: Layout
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: layout--horizontal
+default_value_callback: ''
+settings: {  }
+field_type: list_string

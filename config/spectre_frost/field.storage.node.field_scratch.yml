@@ -1,0 +1,21 @@
+uuid: 3f989c5c-d5d0-409a-a403-d5d0d031d36c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+_core:
+  default_config_hash: _uuqR1TlPt1XM09LcvSbgVJdugvjjS2togd5AFCLcCU
+id: node.field_scratch
+field_name: field_scratch
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

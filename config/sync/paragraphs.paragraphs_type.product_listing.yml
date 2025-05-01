@@ -1,0 +1,17 @@
+uuid: f9ab0188-106e-4a2e-9ae0-3a8be68f56c9
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_library
+third_party_settings:
+  paragraphs_library:
+    allow_library_conversion: true
+_core:
+  default_config_hash: WgMApCb6b4-Ct50Q9K7F-tJEshHcyrOzfehTFVowrEI
+id: product_listing
+label: 'Product listing'
+icon_uuid: null
+icon_default: null
+description: "Choose whichever products you'd like and display them as teasers"
+behavior_plugins: {  }

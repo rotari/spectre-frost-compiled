@@ -1,0 +1,29 @@
+uuid: 5f523569-bc10-4a39-ba62-492cd963e9cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.paragraph.content
+    - field.field.paragraph.block.field_block
+    - paragraphs.paragraphs_type.block
+  module:
+    - block_field
+_core:
+  default_config_hash: G9wtHVWthPKfqB5252ewby7Kj_x9R-z0PxSdEYULiF0
+id: paragraph.block.content
+targetEntityType: paragraph
+bundle: block
+mode: content
+content:
+  field_block:
+    type: block_field_default
+    weight: 0
+    region: content
+    settings:
+      plugin_id: ''
+      settings: {  }
+      configuration_form: full
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

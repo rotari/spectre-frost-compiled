@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: MTd8aG6rfsbJcpk48uT36H3Eljj3YIFXgcnVsorMkxA
+langcode: en
+uuid: d45259fd-3f27-4cf0-8dd1-1ee49f33b0be
+name: 'Spectre Squad'
+mail: admin@example.com
+slogan: 'Spectre este o echipă de airsoft, parte a comunității de airsoft Compania 7 Iași'
+page:
+  403: /node/8
+  404: /node/7
+  front: /node/16
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: ''

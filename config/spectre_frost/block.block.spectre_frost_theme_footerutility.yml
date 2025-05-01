@@ -1,0 +1,31 @@
+uuid: d4510592-077d-41a1-b461-c908b6b50371
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - block_class
+    - system
+  theme:
+    - spectre_frost_theme
+third_party_settings:
+  block_class:
+    classes: pipe-spaced
+_core:
+  default_config_hash: ZL-8_-ngr78A0lVuXJ-OP5rFen-nATYafQQOhBLiEI8
+id: spectre_frost_theme_footerutility
+theme: spectre_frost_theme
+region: footer_utility
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Footer utility'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

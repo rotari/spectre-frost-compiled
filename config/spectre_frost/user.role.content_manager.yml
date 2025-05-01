@@ -1,0 +1,91 @@
+uuid: 598ff986-4ddc-4dcc-89a2-1b504ff3e9c4
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.audio
+    - media.type.document
+    - media.type.image
+    - media.type.imagine_loadout
+    - media.type.imagine_membri
+    - media.type.remote_video
+    - media.type.teaser_eveniment
+    - media.type.teaser_teren
+    - media.type.video
+    - node.type.article
+    - node.type.event
+    - node.type.internal_resource
+    - node.type.loadout
+    - node.type.membri
+    - node.type.page
+    - node.type.sponsor
+    - node.type.teren
+    - taxonomy.vocabulary.tag
+  module:
+    - entity_clone
+    - media
+    - node
+    - paragraphs
+    - paragraphs_library
+    - taxonomy
+    - toolbar
+id: content_manager
+label: 'Content Manager'
+weight: 5
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access media overview'
+  - 'access toolbar'
+  - 'administer paragraphs library'
+  - 'cancel account'
+  - 'clone node entity'
+  - 'clone paragraph entity'
+  - 'clone path_alias entity'
+  - 'create article content'
+  - 'create audio media'
+  - 'create document media'
+  - 'create event content'
+  - 'create image media'
+  - 'create imagine_loadout media'
+  - 'create imagine_membri media'
+  - 'create internal_resource content'
+  - 'create loadout content'
+  - 'create media'
+  - 'create membri content'
+  - 'create page content'
+  - 'create paragraph library item'
+  - 'create remote_video media'
+  - 'create sponsor content'
+  - 'create teaser_eveniment media'
+  - 'create teaser_teren media'
+  - 'create teren content'
+  - 'create terms in tag'
+  - 'create video media'
+  - 'delete terms in tag'
+  - 'edit any article content'
+  - 'edit any audio media'
+  - 'edit any document media'
+  - 'edit any event content'
+  - 'edit any image media'
+  - 'edit any imagine_loadout media'
+  - 'edit any imagine_membri media'
+  - 'edit any internal_resource content'
+  - 'edit any loadout content'
+  - 'edit any membri content'
+  - 'edit any page content'
+  - 'edit any remote_video media'
+  - 'edit any sponsor content'
+  - 'edit any teaser_eveniment media'
+  - 'edit any teaser_teren media'
+  - 'edit any teren content'
+  - 'edit any video media'
+  - 'edit own audio media'
+  - 'edit own document media'
+  - 'edit own image media'
+  - 'edit paragraph library item'
+  - 'edit terms in tag'
+  - 'revert all revisions'
+  - 'view all media revisions'
+  - 'view own unpublished content'
+  - 'view unpublished paragraphs'

@@ -1,0 +1,20 @@
+uuid: 0b94376b-a78d-4c72-80d7-d570f9460c0b
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.imagine_membri
+id: media.imagine_membri.name
+field_name: name
+entity_type: media
+bundle: imagine_membri
+label: Name
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

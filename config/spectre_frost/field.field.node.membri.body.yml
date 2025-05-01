@@ -1,0 +1,23 @@
+uuid: a454172b-5a2c-4804-9149-b113da1d6e76
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.membri
+  module:
+    - text
+id: node.membri.body
+field_name: body
+entity_type: node
+bundle: membri
+label: Teaser
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

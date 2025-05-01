@@ -1,0 +1,17 @@
+uuid: 8c683d38-1622-4ba4-96b8-626cce8e6601
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: HQQ4vQixBMZVVvA7lrRcnYtnPc255gqomnPBXZulN6A
+name: Tag
+vid: tag
+description: 'Freeform description and relationships between content'
+weight: 0

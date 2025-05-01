@@ -1,0 +1,12 @@
+uuid: a046622a-d753-4706-acfa-54b13602a33f
+langcode: en
+status: true
+dependencies:
+  module:
+    - search_api
+_core:
+  default_config_hash: Wcv3jCGCeFnP_6afkG1e6LS6p7aJkHmjzVxLArasTQ4
+id: search_api_task.teaser
+label: Teaser
+targetEntityType: search_api_task
+cache: true

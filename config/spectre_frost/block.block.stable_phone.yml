@@ -1,0 +1,23 @@
+uuid: bde28341-a5ae-469e-90a3-edf82a79bdd6
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - contact_info
+  theme:
+    - stable
+_core:
+  default_config_hash: oKe5iUZbvDf2e35h4OOtxuINl-aADsMNoFWNF6qVN8Q
+id: stable_phone
+theme: stable
+region: footer
+weight: -7
+provider: null
+plugin: phone
+settings:
+  id: phone
+  label: Phone
+  label_display: '0'
+  provider: contact_info
+visibility: {  }

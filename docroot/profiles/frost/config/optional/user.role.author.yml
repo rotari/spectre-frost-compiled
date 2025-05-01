@@ -1,0 +1,72 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.filtered_html
+    - media.type.audio
+    - media.type.document
+    - media.type.image
+    - media.type.video
+    - node.type.article
+    - node.type.page
+    - taxonomy.vocabulary.tag
+  module:
+    - contextual
+    - editoria11y
+    - file
+    - filter
+    - media
+    - node
+    - path
+    - quickedit
+    - styleguide
+    - system
+    - tablefield
+    - taxonomy
+    - toolbar
+id: author
+label: Author
+weight: 3
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access files overview'
+  - 'access in-place editing'
+  - 'access media overview'
+  - 'access toolbar'
+  - 'access user profiles'
+  - 'addrow tablefield'
+  - 'create article content'
+  - 'create audio media'
+  - 'create document media'
+  - 'create image media'
+  - 'create page content'
+  - 'create terms in tag'
+  - 'create url aliases'
+  - 'create video media'
+  - 'edit any audio media'
+  - 'edit any document media'
+  - 'edit any image media'
+  - 'edit any video media'
+  - 'edit own article content'
+  - 'edit own audio media'
+  - 'edit own document media'
+  - 'edit own image media'
+  - 'edit own page content'
+  - 'edit own video media'
+  - 'edit terms in tag'
+  - 'import tablefield'
+  - 'mark as hidden in editoria11y'
+  - 'rebuild tablefield'
+  - 'use text format filtered_html'
+  - 'view all media revisions'
+  - 'view all revisions'
+  - 'view article revisions'
+  - 'view editoria11y checker'
+  - 'view own unpublished content'
+  - 'view own unpublished media'
+  - 'view page revisions'
+  - 'view style guides'
+  - 'view the administration theme'

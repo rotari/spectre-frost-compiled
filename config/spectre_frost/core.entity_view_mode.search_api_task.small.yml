@@ -1,0 +1,12 @@
+uuid: 35cd0d19-4d86-492b-9715-d2e1fae17417
+langcode: en
+status: true
+dependencies:
+  module:
+    - search_api
+_core:
+  default_config_hash: MczuSI9wRaeJToucDUrS2JHRk98FaYiMn492rM2utpE
+id: search_api_task.small
+label: Small
+targetEntityType: search_api_task
+cache: true

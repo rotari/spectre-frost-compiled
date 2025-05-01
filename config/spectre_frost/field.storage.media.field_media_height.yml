@@ -1,0 +1,22 @@
+uuid: 1a37d4cb-d9dc-4d7e-9fd0-2ff1de50b20d
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: l1CaEKwUDwOTsKO878gj04p0KVAgqTKa-c-Ok0_B_ak
+id: media.field_media_height
+field_name: field_media_height
+entity_type: media
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,30 @@
+uuid: 4fc8bb4e-0d34-4959-87b3-2f641daa74ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.utility
+  module:
+    - system
+  theme:
+    - frost_theme
+third_party_settings:
+  block_class:
+    classes: null
+_core:
+  default_config_hash: C0c6e3gcZ9ttUpxrlpmBdb3slhrNiJmF2C3J8DMu3fM
+id: utility
+theme: frost_theme
+region: utility
+weight: 0
+provider: null
+plugin: 'system_menu_block:utility'
+settings:
+  id: 'system_menu_block:utility'
+  label: Utility
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

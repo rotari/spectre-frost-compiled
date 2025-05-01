@@ -1,0 +1,29 @@
+uuid: 59c18ae0-c82a-4025-ae21-3b9011145216
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_membri
+    - node.type.loadout
+    - node.type.membri
+id: node.loadout.field_membri
+field_name: field_membri
+entity_type: node
+bundle: loadout
+label: Membru
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      membri: membri
+    sort:
+      field: title
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

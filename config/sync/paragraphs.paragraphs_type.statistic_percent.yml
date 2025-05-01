@@ -1,0 +1,17 @@
+uuid: 3ee87566-132c-47a1-ac8f-5047a3958958
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_library
+third_party_settings:
+  paragraphs_library:
+    allow_library_conversion: true
+_core:
+  default_config_hash: MUbITvRAPMlvYeJDgNsQKdMEPald2Hrq_MB3CVBosX4
+id: statistic_percent
+label: 'Card: Percent'
+icon_uuid: null
+icon_default: null
+description: 'A visually-distinct percentage, followed by some text for context. The entire card may be linked for additional information.'
+behavior_plugins: {  }

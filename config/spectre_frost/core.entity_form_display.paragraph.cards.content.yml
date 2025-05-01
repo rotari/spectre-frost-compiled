@@ -1,0 +1,47 @@
+uuid: f84e96de-cbb6-4074-8b41-cee1ede7641e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.paragraph.content
+    - field.field.paragraph.cards.field_cards
+    - field.field.paragraph.cards.field_style_layout
+    - paragraphs.paragraphs_type.cards
+  module:
+    - paragraphs
+    - paragraphs_features
+_core:
+  default_config_hash: 61LJLoXlb3YvJV9JE6Xc9w2ipufONNISZiGSQ4kGTPo
+id: paragraph.cards.content
+targetEntityType: paragraph
+bundle: cards
+mode: content
+content:
+  field_cards:
+    type: paragraphs
+    weight: 0
+    region: content
+    settings:
+      title: Card
+      title_plural: Cards
+      edit_mode: closed_expand_nested
+      closed_mode: preview
+      autocollapse: none
+      closed_mode_threshold: 0
+      add_mode: button
+      form_display_mode: default
+      default_paragraph_type: card
+      features:
+        add_above: add_above
+        collapse_edit_all: collapse_edit_all
+        duplicate: duplicate
+    third_party_settings:
+      paragraphs_features:
+        add_in_between: false
+        add_in_between_link_count: 3
+        delete_confirmation: true
+        show_drag_and_drop: true
+hidden:
+  created: true
+  field_style_layout: true
+  status: true

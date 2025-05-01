@@ -1,0 +1,19 @@
+uuid: edb66a5d-87b7-49fb-8940-062710792512
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+_core:
+  default_config_hash: Tx6m6jHAQukT4nvAEtKMw-XCH705oFTchT06OSXHSGc
+name: Article
+type: article
+description: 'Serialized storytelling content. Blog posts, news items, even press releases can be articles, differentiated from each other with the "Article type" tagging.'
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

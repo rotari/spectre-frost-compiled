@@ -1,0 +1,26 @@
+uuid: 0eff1499-8a67-4406-856d-8bff79fba04a
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - contact_info
+  theme:
+    - spectre_frost_theme
+third_party_settings:
+  block_class:
+    classes: margin-vertical--4
+_core:
+  default_config_hash: q7QXOGftN7oXOF60zmWPXUGCdkyIRwiY8unSqmXgZlI
+id: spectre_frost_theme_address
+theme: spectre_frost_theme
+region: footer
+weight: -8
+provider: null
+plugin: address
+settings:
+  id: address
+  label: Address
+  label_display: '0'
+  provider: contact_info
+visibility: {  }

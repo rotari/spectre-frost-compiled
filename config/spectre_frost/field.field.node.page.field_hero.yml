@@ -1,0 +1,116 @@
+uuid: f68d3b7e-5732-4377-8ae0-57ec1252578c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hero
+    - node.type.page
+    - paragraphs.paragraphs_type.from_library
+    - paragraphs.paragraphs_type.stripe
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: AxdGBHOA8udI2s67u_F8kST9VCKuJ4XuOLL4uB6IiDQ
+id: node.page.field_hero
+field_name: field_hero
+entity_type: node
+bundle: page
+label: Hero
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      stripe: stripe
+      from_library: from_library
+    negate: 0
+    target_bundles_drag_drop:
+      accordion:
+        weight: 9
+        enabled: false
+      block:
+        weight: 10
+        enabled: false
+      blockquote:
+        weight: 26
+        enabled: false
+      card:
+        weight: 11
+        enabled: false
+      cards:
+        weight: 28
+        enabled: false
+      column:
+        weight: 12
+        enabled: false
+      content_listing:
+        weight: 13
+        enabled: false
+      from_library:
+        weight: 36
+        enabled: true
+      heading:
+        weight: 31
+        enabled: false
+      hotspot:
+        weight: 32
+        enabled: false
+      iframe:
+        weight: 33
+        enabled: false
+      layout:
+        weight: 34
+        enabled: false
+      link:
+        weight: 35
+        enabled: false
+      media:
+        weight: 36
+        enabled: false
+      media_listing:
+        weight: 43
+        enabled: false
+      message:
+        weight: 44
+        enabled: false
+      product_listing:
+        weight: 45
+        enabled: false
+      rich_text:
+        weight: 37
+        enabled: false
+      seo:
+        weight: 14
+        enabled: false
+      spacer:
+        weight: 39
+        enabled: false
+      statistic_percent:
+        weight: 49
+        enabled: false
+      stripe:
+        weight: 15
+        enabled: true
+      stripe_collection:
+        weight: 51
+        enabled: false
+      table:
+        weight: 42
+        enabled: false
+      term_listing:
+        weight: 43
+        enabled: false
+      user_listing:
+        weight: 44
+        enabled: false
+      view:
+        weight: 16
+        enabled: false
+      webform:
+        weight: 46
+        enabled: false
+field_type: entity_reference_revisions

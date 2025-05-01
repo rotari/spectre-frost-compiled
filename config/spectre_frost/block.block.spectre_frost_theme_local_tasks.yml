@@ -1,0 +1,22 @@
+uuid: 61beb26d-8d71-438c-8c81-ae38b17dd96d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - spectre_frost_theme
+_core:
+  default_config_hash: IjRPGPa3KvVIQlVmYnnxGwy-81OOiRb9M3ZoOP4V2l4
+id: spectre_frost_theme_local_tasks
+theme: spectre_frost_theme
+region: pre_content
+weight: -6
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

@@ -1,0 +1,18 @@
+uuid: b86d6417-9039-407f-9dae-988c4a281de6
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.hotspot
+id: paragraph.hotspot.created
+field_name: created
+entity_type: paragraph
+bundle: hotspot
+label: 'Authored on'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

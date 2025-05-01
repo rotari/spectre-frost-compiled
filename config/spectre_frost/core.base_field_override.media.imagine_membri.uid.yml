@@ -1,0 +1,20 @@
+uuid: d817826f-4a92-4ac1-b9f5-32ce213d4c25
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.imagine_membri
+id: media.imagine_membri.uid
+field_name: uid
+entity_type: media
+bundle: imagine_membri
+label: 'Authored by'
+description: 'The user ID of the author.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\media\Entity\Media::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

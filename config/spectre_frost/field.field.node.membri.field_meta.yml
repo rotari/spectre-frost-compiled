@@ -1,0 +1,21 @@
+uuid: 0090bf84-78c2-422b-936a-5d58b5bf075c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_meta
+    - node.type.membri
+  module:
+    - metatag
+id: node.membri.field_meta
+field_name: field_meta
+entity_type: node
+bundle: membri
+label: 'Meta Tags'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

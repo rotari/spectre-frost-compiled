@@ -1,0 +1,22 @@
+uuid: e62f99bb-5ce5-4f22-957a-acc60f89f639
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - spectre_frost_theme
+_core:
+  default_config_hash: rX0WpFGktpdMDVVaxdSwYDgYhd5LWpIzL6YlQm7Rhq0
+id: spectre_frost_theme_breadcrumbs
+theme: spectre_frost_theme
+region: pre_content
+weight: -4
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

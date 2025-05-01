@@ -1,0 +1,73 @@
+uuid: 621e1242-1c3f-425c-9f49-96815a1f4cd9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.seo.field_seo_description
+    - field.field.paragraph.seo.field_seo_image
+    - field.field.paragraph.seo.field_seo_keywords
+    - field.field.paragraph.seo.field_seo_nofollow
+    - field.field.paragraph.seo.field_seo_noindex
+    - field.field.paragraph.seo.field_seo_title
+    - paragraphs.paragraphs_type.seo
+_core:
+  default_config_hash: R9oOmBLFICNIgeDgxd6Qtp0Cwp6tdROtk8NpVcqSQmY
+id: paragraph.seo.default
+targetEntityType: paragraph
+bundle: seo
+mode: default
+content:
+  field_seo_description:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_seo_image:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_seo_keywords:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_seo_nofollow:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_seo_noindex:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_seo_title:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  search_api_excerpt: true

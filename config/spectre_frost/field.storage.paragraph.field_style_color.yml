@@ -1,0 +1,29 @@
+uuid: 01d90ce0-5a67-4d8d-84a8-37c5bb7eb0c7
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: t3Dak3VRKP8ivISVSIge-dRCwt1Phbke5TpeiLrdLQ4
+id: paragraph.field_style_color
+field_name: field_style_color
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: color--inherit
+      label: 'Dark (inherit)'
+    -
+      value: color--white
+      label: Light/white
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

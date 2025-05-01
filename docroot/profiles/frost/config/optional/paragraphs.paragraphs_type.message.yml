@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: message
+label: Message
+icon_uuid: null
+icon_default: null
+description: 'Dismissible system alerts used to show status, warnings, and errors to users'
+behavior_plugins: {  }

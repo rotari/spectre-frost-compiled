@@ -1,0 +1,20 @@
+uuid: b1513d0d-300f-4d1f-9621-34a6f0d9659b
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.teaser_eveniment
+id: media.teaser_eveniment.uid
+field_name: uid
+entity_type: media
+bundle: teaser_eveniment
+label: 'Authored by'
+description: 'The user ID of the author.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\media\Entity\Media::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

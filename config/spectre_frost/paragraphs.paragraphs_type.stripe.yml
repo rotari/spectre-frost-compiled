@@ -1,0 +1,17 @@
+uuid: 596ee52c-4ce3-4188-9963-765a3555c795
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_library
+third_party_settings:
+  paragraphs_library:
+    allow_library_conversion: true
+_core:
+  default_config_hash: yAET_-cC_JMwMsFXunXkefyUjqrer-1GRxU6vTqyswo
+id: stripe
+label: 'Stripe: Atomic'
+icon_uuid: null
+icon_default: null
+description: 'Add any atomic-level components in any order or layout desired, with lots of configuration options for custom and one-off sections.'
+behavior_plugins: {  }

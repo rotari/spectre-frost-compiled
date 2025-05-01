@@ -1,0 +1,27 @@
+uuid: 002bff8e-7286-415b-bf49-73161c328410
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - spectre_frost_theme
+_core:
+  default_config_hash: drF_g1HU0XY2kEqsrUxWhyDGJonf11C1aVxioZgHOng
+id: spectre_frost_theme_mainnavigation
+theme: spectre_frost_theme
+region: nav
+weight: -8
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,21 @@
+uuid: 69f5139b-f5e6-47a6-a305-0e52e5418051
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_meta
+    - node.type.teren
+  module:
+    - metatag
+id: node.teren.field_meta
+field_name: field_meta
+entity_type: node
+bundle: teren
+label: 'Meta Tags'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

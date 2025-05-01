@@ -1,0 +1,32 @@
+uuid: 175926b4-9f9d-482a-adf1-4200a25c4b7d
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.paragraph.content
+    - field.field.paragraph.hotspot.field_data_xpercent
+    - field.field.paragraph.hotspot.field_data_ypercent
+    - field.field.paragraph.hotspot.field_text
+    - paragraphs.paragraphs_type.hotspot
+  module:
+    - text
+_core:
+  default_config_hash: vgXmQr7d3Z69FYkLSZ8U72sVcKJdY1f1_I8YCGBUGmA
+id: paragraph.hotspot.content
+targetEntityType: paragraph
+bundle: hotspot
+mode: content
+content:
+  field_text:
+    type: text_textarea
+    weight: 0
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_data_xpercent: true
+  field_data_ypercent: true
+  status: true

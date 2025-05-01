@@ -1,0 +1,25 @@
+uuid: f90b8f87-25c3-4f5e-b139-dd5b7de88f14
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_style_borderradius
+    - paragraphs.paragraphs_type.column
+  module:
+    - options
+_core:
+  default_config_hash: FDbbCF4GRsMPb4iBRbn6DmLECjsWV41_Tqac4TN61zI
+id: paragraph.column.field_style_borderradius
+field_name: field_style_borderradius
+entity_type: paragraph
+bundle: column
+label: 'Border radius'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: border-radius--default
+default_value_callback: ''
+settings: {  }
+field_type: list_string

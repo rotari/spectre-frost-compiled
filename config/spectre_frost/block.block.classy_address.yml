@@ -1,0 +1,26 @@
+uuid: 879e0401-30f8-4de3-bc42-9df7082f77ca
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - contact_info
+  theme:
+    - classy
+third_party_settings:
+  block_class:
+    classes: margin-vertical--4
+_core:
+  default_config_hash: s8oNV2j8JzYOui9-t6Ift3c-V0lEv-ga2Bia0ANfjl4
+id: classy_address
+theme: classy
+region: footer
+weight: -8
+provider: null
+plugin: address
+settings:
+  id: address
+  label: Address
+  label_display: '0'
+  provider: contact_info
+visibility: {  }

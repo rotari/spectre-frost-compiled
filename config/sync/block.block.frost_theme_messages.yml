@@ -1,0 +1,25 @@
+uuid: 0c4b1c77-e9c2-4d80-997d-2654b83ed067
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - frost_theme
+third_party_settings:
+  block_class:
+    classes: null
+_core:
+  default_config_hash: jhQJmPMWb1fND9Jl2U86YMTHmMM1d8WwHfS1gbLQvL0
+id: frost_theme_messages
+theme: frost_theme
+region: pre_content
+weight: -7
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

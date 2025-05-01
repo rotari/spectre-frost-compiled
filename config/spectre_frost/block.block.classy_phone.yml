@@ -1,0 +1,23 @@
+uuid: 2efdeaa4-e504-45af-8f14-ce4f7b1dc36a
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - contact_info
+  theme:
+    - classy
+_core:
+  default_config_hash: __lDNQSY3NSEb2Ycpvdfm7ms5kuMJ3VMJ4Q4k5TT7VA
+id: classy_phone
+theme: classy
+region: footer
+weight: -7
+provider: null
+plugin: phone
+settings:
+  id: phone
+  label: Phone
+  label_display: '0'
+  provider: contact_info
+visibility: {  }

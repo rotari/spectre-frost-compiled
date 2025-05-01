@@ -1,0 +1,18 @@
+uuid: e5e1ca64-d7dc-4daa-a82f-fe46d6b6bbb8
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.statistic_percent
+id: paragraph.statistic_percent.created
+field_name: created
+entity_type: paragraph
+bundle: statistic_percent
+label: 'Authored on'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

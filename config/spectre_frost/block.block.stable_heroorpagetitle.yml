@@ -1,0 +1,23 @@
+uuid: e0ac0224-7843-4738-a43f-b8cc853309c5
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - frost_custom
+  theme:
+    - stable
+_core:
+  default_config_hash: mLIPSbVza9x_QOhkG5mN_TInmfL4to1LF7MN4MyDu5Q
+id: stable_heroorpagetitle
+theme: stable
+region: sidebar_first
+weight: 0
+provider: null
+plugin: hero_title_block
+settings:
+  id: hero_title_block
+  label: 'Hero or Page Title'
+  label_display: '0'
+  provider: frost_custom
+visibility: {  }

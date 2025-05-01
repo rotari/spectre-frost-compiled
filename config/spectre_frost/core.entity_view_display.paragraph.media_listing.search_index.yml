@@ -1,0 +1,35 @@
+uuid: 65b996ee-e7a2-435c-ba0c-1dd63ce388cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.search_index
+    - field.field.paragraph.media_listing.field_data_lightbox
+    - field.field.paragraph.media_listing.field_multimedia
+    - field.field.paragraph.media_listing.field_style_layout
+    - paragraphs.paragraphs_type.media_listing
+  module:
+    - entity_reference_revisions
+    - field_formatter_class
+_core:
+  default_config_hash: Oog5Ow_HwLB59DwXz-VjSDZ1NAdECH1sdHQ2V5bU9R4
+id: paragraph.media_listing.search_index
+targetEntityType: paragraph
+bundle: media_listing
+mode: search_index
+content:
+  field_multimedia:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: search_index
+      link: ''
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+    weight: 0
+    region: content
+hidden:
+  field_data_lightbox: true
+  field_style_layout: true
+  search_api_excerpt: true

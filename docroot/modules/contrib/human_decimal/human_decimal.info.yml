@@ -1,0 +1,12 @@
+name: Human Decimal Formatter
+type: module
+description: A simple decimal formatter that displays decimal digits only if exist.
+core_version_requirement: ^8 || ^9 || ^10
+package: Field
+dependencies:
+  - drupal:field
+
+# Information added by Drupal.org packaging script on 2022-06-29
+version: '3.0.1'
+project: 'human_decimal'
+datestamp: 1656520962

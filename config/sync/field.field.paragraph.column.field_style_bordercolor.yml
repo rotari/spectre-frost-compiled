@@ -1,0 +1,25 @@
+uuid: 35b6a1f1-2e28-466e-b7a2-dc1d8f231404
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_style_bordercolor
+    - paragraphs.paragraphs_type.column
+  module:
+    - options
+_core:
+  default_config_hash: 4emVeqia2WU4MW8TuqoS6m-0jKPn7vNuA_1Peh_IJLc
+id: paragraph.column.field_style_bordercolor
+field_name: field_style_bordercolor
+entity_type: paragraph
+bundle: column
+label: 'Border color'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: border-color--grey
+default_value_callback: ''
+settings: {  }
+field_type: list_string

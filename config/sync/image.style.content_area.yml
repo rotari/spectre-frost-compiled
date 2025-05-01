@@ -1,0 +1,24 @@
+uuid: 2cf7016f-5bda-420a-867e-3c7b2dfa665e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 6ororzvqUrd5qhFU6GOowf-d5VyVWDIiUUbpzfqPePE
+name: content_area
+label: 'Content Area'
+effects:
+  a8b2662a-db2a-4dbf-952a-77fcbc4506b6:
+    uuid: a8b2662a-db2a-4dbf-952a-77fcbc4506b6
+    id: image_scale
+    weight: 1
+    data:
+      width: 1440
+      height: null
+      upscale: false
+  ef804e25-4458-4486-a8a4-bc6bc15f35af:
+    uuid: ef804e25-4458-4486-a8a4-bc6bc15f35af
+    id: image_convert
+    weight: 2
+    data:
+      extension: webp
+pipeline: __default__

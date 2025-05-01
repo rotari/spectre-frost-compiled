@@ -1,0 +1,18 @@
+uuid: d43f0713-10b4-42ed-ba87-b8a25f4e825e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.view.field_view
+    - paragraphs.paragraphs_type.view
+_core:
+  default_config_hash: x97MP2sfoj_P9kU_uIQUO39VLlpgGe0BaFMQjghx0a0
+id: paragraph.view.preview
+targetEntityType: paragraph
+bundle: view
+mode: preview
+content: {  }
+hidden:
+  field_view: true
+  search_api_excerpt: true

@@ -1,0 +1,18 @@
+uuid: a4319a77-9c75-4593-b818-19faf81578bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.teaser_eveniment
+id: media.teaser_eveniment.changed
+field_name: changed
+entity_type: media
+bundle: teaser_eveniment
+label: Changed
+description: 'The time the media item was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

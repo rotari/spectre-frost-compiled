@@ -1,0 +1,18 @@
+uuid: 60542aee-64ec-4c57-8243-d74412d68193
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.imagine_membri
+id: media.imagine_membri.created
+field_name: created
+entity_type: media
+bundle: imagine_membri
+label: 'Authored on'
+description: 'The time the media item was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\media\Entity\Media::getRequestTime'
+settings: {  }
+field_type: created

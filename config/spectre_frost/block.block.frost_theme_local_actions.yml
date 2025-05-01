@@ -1,0 +1,22 @@
+uuid: 9c7c0deb-7021-45fc-8c9f-30ae062bce6f
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+  theme:
+    - frost_theme
+_core:
+  default_config_hash: UUUOPbnBIDNHv9ujnIu6_zQFjHoiB16CKy_iJ1POtpU
+id: frost_theme_local_actions
+theme: frost_theme
+region: pre_content
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

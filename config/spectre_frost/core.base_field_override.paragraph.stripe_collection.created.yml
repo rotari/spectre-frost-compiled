@@ -1,0 +1,18 @@
+uuid: 174cdbce-c470-4870-a027-12cc8a121366
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.stripe_collection
+id: paragraph.stripe_collection.created
+field_name: created
+entity_type: paragraph
+bundle: stripe_collection
+label: 'Authored on'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

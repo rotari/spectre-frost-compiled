@@ -1,0 +1,10 @@
+uuid: ee117784-f79d-43fc-87d4-b8f33ede5fbb
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: c2F0axSAzpnXQU9YSQAwdtZjwavwsDTPaek76y4IYy0
+id: messages
+label: Messages
+revision: 1
+description: 'Containers for the message paragraph type.'

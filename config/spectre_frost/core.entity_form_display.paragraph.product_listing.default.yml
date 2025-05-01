@@ -1,0 +1,80 @@
+uuid: 0facd4b9-e3ee-4bcc-958b-19164c9c252c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.product_listing.field_style_layout
+    - field.field.paragraph.product_listing.field_viewmode
+    - paragraphs.paragraphs_type.product_listing
+  module:
+    - field_group
+third_party_settings:
+  field_group:
+    group_admin:
+      children:
+        - group_content
+        - group_settings
+      label: Admin
+      region: content
+      parent_name: ''
+      weight: 0
+      format_type: tabs
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        direction: horizontal
+        width_breakpoint: 640
+    group_content:
+      children:
+        - field_products
+      label: Content
+      region: content
+      parent_name: group_admin
+      weight: 6
+      format_type: tab
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        formatter: open
+        description: ''
+        required_fields: false
+    group_settings:
+      children:
+        - field_style_layout
+        - field_viewmode
+      label: Settings
+      region: content
+      parent_name: group_admin
+      weight: 7
+      format_type: tab
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        formatter: closed
+        description: ''
+        required_fields: false
+_core:
+  default_config_hash: NOV_bxBLqy1XDkFuobT-BfvcH4CKobJjTiQd6u8ppOc
+id: paragraph.product_listing.default
+targetEntityType: paragraph
+bundle: product_listing
+mode: default
+content:
+  field_style_layout:
+    type: options_select
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_viewmode:
+    type: options_select
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

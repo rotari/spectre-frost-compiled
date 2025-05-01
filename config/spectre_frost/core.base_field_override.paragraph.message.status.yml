@@ -1,0 +1,22 @@
+uuid: 9df91a78-2e3b-4f3c-8d29-20d17b61d7c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.message
+id: paragraph.message.status
+field_name: status
+entity_type: paragraph
+bundle: message
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,21 @@
+uuid: 25911cea-4803-446d-995f-6dab5c9c40f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_mimetype
+    - media.type.audio
+_core:
+  default_config_hash: 6XVNOTukLjOPxOY9AOD9w3IUzwNDcpMtY26kUlyuJRU
+id: media.audio.field_media_mimetype
+field_name: field_media_mimetype
+entity_type: media
+bundle: audio
+label: 'MIME Type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

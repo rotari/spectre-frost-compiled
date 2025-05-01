@@ -1,0 +1,25 @@
+uuid: 530a46f5-2ce2-4ad7-be35-50973199ef59
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_checkout
+    - commerce_product
+    - media
+    - search_api_autocomplete
+    - styleguide
+    - system
+_core:
+  default_config_hash: 0YWAboXJuQx0xw0xKbO5RuNf0V1P3HNfOK5YKCBkx-0
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access checkout'
+  - 'access content'
+  - 'access user profiles'
+  - 'use search_api_autocomplete for search'
+  - 'view commerce_product'
+  - 'view media'
+  - 'view style guides'

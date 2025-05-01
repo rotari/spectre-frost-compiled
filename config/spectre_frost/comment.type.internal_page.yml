@@ -1,0 +1,8 @@
+uuid: 69a4a242-f938-4b07-9c2c-e76d74c1421c
+langcode: en
+status: true
+dependencies: {  }
+id: internal_page
+label: 'Internal Page'
+target_entity_type_id: node
+description: ''

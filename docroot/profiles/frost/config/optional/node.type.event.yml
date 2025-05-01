@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Event
+type: event
+description: 'For in-person, online, or other kinds of events. Events are distinct from other content in that the time and place are the main pieces of information to convey to the reader.'
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

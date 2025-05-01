@@ -1,0 +1,25 @@
+uuid: a8fa5006-9518-459b-9150-c7e4ea7bef09
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_style_quoteopen
+    - paragraphs.paragraphs_type.blockquote
+_core:
+  default_config_hash: NJ7I4H1uTBCaJR0HdrHNp2MfVt95qwvW60zarXIAysQ
+id: paragraph.blockquote.field_style_quoteopen
+field_name: field_style_quoteopen
+entity_type: paragraph
+bundle: blockquote
+label: 'Opening quotation mark'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: blockquote--opening-include
+  off_label: blockquote--opening-exclude
+field_type: boolean

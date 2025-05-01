@@ -1,0 +1,29 @@
+uuid: a61e7b6d-96ce-4394-b175-b1f43f1c7394
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.search_index
+    - field.field.paragraph.webform.field_webform
+    - paragraphs.paragraphs_type.webform
+  module:
+    - field_formatter_class
+    - webform
+_core:
+  default_config_hash: oaIjTX--38CSFmUJua9T3CXzsEFUH4RevtNaYhwqI3I
+id: paragraph.webform.search_index
+targetEntityType: paragraph
+bundle: webform
+mode: search_index
+content:
+  field_webform:
+    type: webform_entity_reference_url
+    label: hidden
+    settings: {  }
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+    weight: 0
+    region: content
+hidden:
+  search_api_excerpt: true

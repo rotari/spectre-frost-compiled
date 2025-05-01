@@ -1,0 +1,12 @@
+uuid: 30596b92-3082-44e0-9585-a31e04436103
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: e1mlb9OhULtmyFyCnV9QxzYLK1IdhJ3fyiycdfbePhw
+id: node.ief
+label: ief
+targetEntityType: node
+cache: true

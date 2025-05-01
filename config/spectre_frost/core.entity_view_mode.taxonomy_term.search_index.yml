@@ -1,0 +1,12 @@
+uuid: 4c6ed3ca-6ff2-4296-94ef-7801ada77639
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+_core:
+  default_config_hash: JV4p_3_l_y5Bg_8iQZIGnNXm_R_ERvj50JQyO_GI3gA
+id: taxonomy_term.search_index
+label: 'Search index'
+targetEntityType: taxonomy_term
+cache: true

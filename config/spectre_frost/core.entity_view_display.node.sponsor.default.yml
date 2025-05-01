@@ -1,0 +1,52 @@
+uuid: 1253a1ea-637f-4015-993a-3b69e01a1773
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.sponsor.body
+    - field.field.node.sponsor.field_components
+    - field.field.node.sponsor.field_image
+    - field.field.node.sponsor.field_meta
+    - field.field.node.sponsor.field_tags
+    - node.type.sponsor
+  module:
+    - entity_reference_revisions
+    - metatag
+    - user
+id: node.sponsor.default
+targetEntityType: node
+bundle: sponsor
+mode: default
+content:
+  field_components:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_meta:
+    type: metatag_empty_formatter
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_tags:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  body: true
+  field_image: true
+  frost_submitted: true
+  langcode: true
+  linked_title: true
+  links: true
+  search_api_excerpt: true

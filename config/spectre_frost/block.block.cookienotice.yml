@@ -1,0 +1,23 @@
+uuid: 13b30d31-8086-4b68-89f3-98ba5182ca18
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - frost_custom
+  theme:
+    - frost_theme
+_core:
+  default_config_hash: E2oT6MNwz0stl9aNjFChE8jFuEuHek7rhTJWfr1AcVI
+id: cookienotice
+theme: frost_theme
+region: post_footer
+weight: 0
+provider: null
+plugin: cookie_block
+settings:
+  id: cookie_block
+  label: 'Cookie notice'
+  label_display: '0'
+  provider: frost_custom
+visibility: {  }

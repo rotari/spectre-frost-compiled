@@ -1,0 +1,23 @@
+uuid: 1bbeb449-a0ff-4d18-a91f-5e913222a9d9
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - system
+  theme:
+    - frost_theme
+_core:
+  default_config_hash: lyOS220h6DDeOMlLVWm-4LcYldBeY1sqSJO_0KXhVik
+id: mainpagecontent
+theme: frost_theme
+region: content
+weight: -3
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

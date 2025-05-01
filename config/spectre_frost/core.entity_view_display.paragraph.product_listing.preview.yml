@@ -1,0 +1,20 @@
+uuid: 8d559b31-4afc-435c-9b16-c52068c39811
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.product_listing.field_style_layout
+    - field.field.paragraph.product_listing.field_viewmode
+    - paragraphs.paragraphs_type.product_listing
+_core:
+  default_config_hash: Bg-YPjpQ0ywGxLmy13aVRkGGwj9sFVZZxfLG1V50Uu8
+id: paragraph.product_listing.preview
+targetEntityType: paragraph
+bundle: product_listing
+mode: preview
+content: {  }
+hidden:
+  field_style_layout: true
+  field_viewmode: true
+  search_api_excerpt: true

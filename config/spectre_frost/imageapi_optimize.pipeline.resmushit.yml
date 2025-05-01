@@ -1,0 +1,17 @@
+uuid: 918c3388-27ea-42b3-b022-2b94c03d0840
+langcode: en
+status: true
+dependencies:
+  module:
+    - imageapi_optimize_resmushit
+_core:
+  default_config_hash: E7Dn3QPWZ5Dh6HKD9-BWH50a4HCi_MEPbcIaZGv0h1Q
+name: resmushit
+label: Resmush.it
+processors:
+  2023ebb3-ba2f-43b1-9cc1-f20e3defd2c5:
+    uuid: 2023ebb3-ba2f-43b1-9cc1-f20e3defd2c5
+    id: resmushit
+    weight: 1
+    data:
+      quality: 80

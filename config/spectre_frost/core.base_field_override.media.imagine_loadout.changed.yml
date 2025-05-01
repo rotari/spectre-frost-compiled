@@ -1,0 +1,18 @@
+uuid: bc876e6d-0c98-441a-9027-859e7e469158
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.imagine_loadout
+id: media.imagine_loadout.changed
+field_name: changed
+entity_type: media
+bundle: imagine_loadout
+label: Changed
+description: 'The time the media item was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

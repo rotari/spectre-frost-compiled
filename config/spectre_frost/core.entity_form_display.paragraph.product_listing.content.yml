@@ -1,0 +1,21 @@
+uuid: 7ff0e5cc-efc3-4ee8-af9a-7446ceacd640
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.paragraph.content
+    - field.field.paragraph.product_listing.field_style_layout
+    - field.field.paragraph.product_listing.field_viewmode
+    - paragraphs.paragraphs_type.product_listing
+_core:
+  default_config_hash: o9BRTsN6Ggd0T5KQysIaV_jtHOYvTdHPiwSEsPlrOiI
+id: paragraph.product_listing.content
+targetEntityType: paragraph
+bundle: product_listing
+mode: content
+content: {  }
+hidden:
+  created: true
+  field_style_layout: true
+  field_viewmode: true
+  status: true

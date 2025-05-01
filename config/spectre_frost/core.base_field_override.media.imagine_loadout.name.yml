@@ -1,0 +1,20 @@
+uuid: a2acd883-9fb3-4f1e-b02b-cf6d287451c5
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.imagine_loadout
+id: media.imagine_loadout.name
+field_name: name
+entity_type: media
+bundle: imagine_loadout
+label: Name
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

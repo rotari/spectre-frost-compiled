@@ -1,0 +1,25 @@
+uuid: d353f558-729a-476d-aa23-b17e8d16eda1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_style_paddingxc
+    - paragraphs.paragraphs_type.column
+_core:
+  default_config_hash: nRp-6r0i1Glgm1QHRqM0aieEKk4fr-1GXN9Os0iKKGI
+id: paragraph.column.field_style_paddingxc
+field_name: field_style_paddingxc
+entity_type: paragraph
+bundle: column
+label: 'Padding (horizontal) collapse'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: padding-horizontal--collapse
+  off_label: padding-horizontal--default
+field_type: boolean

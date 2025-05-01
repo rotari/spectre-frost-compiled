@@ -1,0 +1,23 @@
+uuid: 00304b72-dbea-4aa2-b5b5-5703e7743dc5
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - frost_custom
+  theme:
+    - stable
+_core:
+  default_config_hash: Ox17UTZXOWwdDJ_5IY2vhzWawM1m6XM0bLfA01NokEI
+id: stable_invertedlogo
+theme: stable
+region: footer
+weight: -9
+provider: null
+plugin: inverted_logo_block
+settings:
+  id: inverted_logo_block
+  label: 'Inverted Logo'
+  label_display: '0'
+  provider: frost_custom
+visibility: {  }

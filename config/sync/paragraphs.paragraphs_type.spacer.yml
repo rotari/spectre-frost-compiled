@@ -1,0 +1,12 @@
+uuid: bafd5418-2b8a-4587-84b9-50d2d4ffa439
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: W5ys93p3f87617RnJ76O2Scxu7ZECDbYdare7DB6PeM
+id: spacer
+label: Spacer
+icon_uuid: null
+icon_default: null
+description: 'Vertical spacing made configurable! Put just the right amount of space between other components'
+behavior_plugins: {  }

@@ -1,0 +1,18 @@
+uuid: 1025f1a4-4439-46aa-9954-518f0f7c2e98
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.statistic_percent
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: paragraph.statistic_percent
+target_entity_type_id: paragraph
+target_bundle: statistic_percent
+default_langcode: site_default
+language_alterable: false

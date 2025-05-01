@@ -1,0 +1,93 @@
+uuid: 988de838-93b8-4c0f-8349-39c47d4b3882
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.article.body
+    - field.field.node.article.field_article_type
+    - field.field.node.article.field_components
+    - field.field.node.article.field_image
+    - field.field.node.article.field_notes
+    - field.field.node.article.field_scratch
+    - field.field.node.article.field_seo
+    - field.field.node.article.field_tags
+    - node.type.article
+  module:
+    - field_formatter_class
+    - field_group
+    - text
+    - user
+third_party_settings:
+  field_group:
+    group_text_contents:
+      children:
+        - frost_submitted
+        - linked_title
+        - body
+      label: 'Text contents'
+      parent_name: ''
+      region: content
+      weight: 1
+      format_type: html_element
+      format_settings:
+        classes: 'padding-horizontal--2 padding-vertical--2 flex--1'
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+_core:
+  default_config_hash: VcKG71SpBbp1xzQR39dEOXS8HrM35YETICkRHfwtegg
+id: node.article.teaser
+targetEntityType: node
+bundle: article
+mode: teaser
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_image:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: teaser
+      link: false
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+    weight: 0
+    region: content
+  frost_submitted:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  linked_title:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+hidden:
+  breadcrumb: true
+  field_article_type: true
+  field_components: true
+  field_notes: true
+  field_scratch: true
+  field_seo: true
+  field_tags: true
+  langcode: true
+  search_api_excerpt: true

@@ -1,0 +1,25 @@
+uuid: 1fe741f8-d21b-4bb3-a770-66b5d34ae35c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.from_library.field_reusable_paragraph
+    - paragraphs.paragraphs_type.from_library
+_core:
+  default_config_hash: ey75M7rl2F_s0GObn1ParzRo3QdUY1mPBWxVvtBQ7Qg
+id: paragraph.from_library.preview
+targetEntityType: paragraph
+bundle: from_library
+mode: preview
+content:
+  field_reusable_paragraph:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  search_api_excerpt: true

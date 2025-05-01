@@ -1,0 +1,16 @@
+uuid: 8bdea438-0caf-40f2-8cdf-ede41db7acfa
+langcode: en
+status: true
+dependencies:
+  module:
+    - profile
+  enforced:
+    module:
+      - profile
+_core:
+  default_config_hash: _VOPIG99IVPSFTbk58KmobSs8K0i-25l306cqlATcgs
+id: profile_publish_action
+label: 'Publish selected profile'
+type: profile
+plugin: 'entity:publish_action:profile'
+configuration: {  }

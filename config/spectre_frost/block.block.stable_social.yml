@@ -1,0 +1,26 @@
+uuid: ed2776fb-b2b4-4897-bb03-5092d4427dad
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - contact_info
+  theme:
+    - stable
+third_party_settings:
+  block_class:
+    classes: margin-top--40px
+_core:
+  default_config_hash: Z679LNma7nChsrkESCg9odf7CTEXZdkhQJuW-OyKROA
+id: stable_social
+theme: stable
+region: sidebar_first
+weight: -6
+provider: null
+plugin: social
+settings:
+  id: social
+  label: Social
+  label_display: '0'
+  provider: contact_info
+visibility: {  }

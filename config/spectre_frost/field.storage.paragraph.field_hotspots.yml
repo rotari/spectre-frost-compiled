@@ -1,0 +1,22 @@
+uuid: e79b1637-cd63-4c6c-99e0-cc6df1da5ef7
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - paragraphs
+_core:
+  default_config_hash: jmcshNlOLEoT_76yAz6hNzgjLSG40QBLlVH5QBGsjto
+id: paragraph.field_hotspots
+field_name: field_hotspots
+entity_type: paragraph
+type: entity_reference_revisions
+settings:
+  target_type: paragraph
+module: entity_reference_revisions
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,12 @@
+uuid: 93ea076f-a634-42ee-b0dc-0d4b0bc0e24c
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: xGkCoF01RsdbAIxMnxrehcSBza9Zmc1NNr2T8Spq58g
+id: user_listing
+label: 'User listing'
+icon_uuid: null
+icon_default: null
+description: 'Show teasers of users/people that link to their profile page'
+behavior_plugins: {  }

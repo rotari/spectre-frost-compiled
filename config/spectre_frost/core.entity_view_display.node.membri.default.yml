@@ -1,0 +1,45 @@
+uuid: 8d61ccc4-8e1e-4f74-884c-f533d0feeb48
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.membri.body
+    - field.field.node.membri.field_components
+    - field.field.node.membri.field_image
+    - field.field.node.membri.field_meta
+    - field.field.node.membri.field_nickname
+    - node.type.membri
+  module:
+    - entity_reference_revisions
+    - metatag
+    - user
+id: node.membri.default
+targetEntityType: node
+bundle: membri
+mode: default
+content:
+  field_components:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_meta:
+    type: metatag_empty_formatter
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  body: true
+  field_image: true
+  field_nickname: true
+  frost_submitted: true
+  langcode: true
+  linked_title: true
+  links: true
+  search_api_excerpt: true

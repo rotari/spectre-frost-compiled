@@ -1,0 +1,66 @@
+uuid: b06ad502-0f5c-432a-86b7-7410f6c692ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.teren.body
+    - field.field.node.teren.field_components
+    - field.field.node.teren.field_image
+    - field.field.node.teren.field_link_catre_teren
+    - field.field.node.teren.field_meta
+    - field.field.node.teren.field_tags
+    - node.type.teren
+  module:
+    - entity_reference_revisions
+    - link
+    - metatag
+    - user
+id: node.teren.default
+targetEntityType: node
+bundle: teren
+mode: default
+content:
+  field_components:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_link_catre_teren:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_meta:
+    type: metatag_empty_formatter
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_tags:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden:
+  body: true
+  field_image: true
+  frost_submitted: true
+  langcode: true
+  linked_title: true
+  links: true
+  search_api_excerpt: true

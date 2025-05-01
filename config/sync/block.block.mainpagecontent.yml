@@ -1,0 +1,25 @@
+uuid: 67e4c4a6-d2f7-4ec0-a675-210d8f90cecc
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - frost_theme
+third_party_settings:
+  block_class:
+    classes: null
+_core:
+  default_config_hash: b8uw_-fGLuyPfR1d7olGbvEYD7ABcVmJ0QCmgB8qeVY
+id: mainpagecontent
+theme: frost_theme
+region: content
+weight: -3
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

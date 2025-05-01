@@ -1,0 +1,20 @@
+uuid: 24919ea1-3ec6-421c-a224-6ed061c3dd0d
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: 7huSooa0M3auk0xFChgWTGBPiS6Jn0ub8XPmJLKxy6U
+id: paragraph.field_style_paddingxc
+field_name: field_style_paddingxc
+entity_type: paragraph
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

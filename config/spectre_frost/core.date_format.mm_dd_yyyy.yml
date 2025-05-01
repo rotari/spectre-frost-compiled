@@ -1,0 +1,10 @@
+uuid: 0298a483-b749-4a10-9514-d6bbd8ba3dbf
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vOPk9Pvxl1JOfUylqiSYZu3-s6BYaG_Nnhy3UVDfEjI
+id: mm_dd_yyyy
+label: MM/DD/YYYY
+locked: false
+pattern: m/j/Y

@@ -1,0 +1,10 @@
+uuid: 5afde2a6-b85f-48dc-b729-b3bf819d5378
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: sKAqCvobDcFSr0i_uj_ZGCytoNlxm2fNOZ3Pi-2hycc
+id: human_date_time
+label: 'Human date + time'
+locked: false
+pattern: 'F j, Y g:i A'

@@ -1,0 +1,22 @@
+uuid: d8e495f1-777d-47ed-854d-18f586f53e8b
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.imagine_membri
+id: media.imagine_membri.status
+field_name: status
+entity_type: media
+bundle: imagine_membri
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

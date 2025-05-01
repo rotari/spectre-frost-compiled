@@ -1,0 +1,18 @@
+uuid: b6db1070-091a-4c3c-8071-dfabc5275a88
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.teaser_eveniment
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: media.teaser_eveniment
+target_entity_type_id: media
+target_bundle: teaser_eveniment
+default_langcode: site_default
+language_alterable: false

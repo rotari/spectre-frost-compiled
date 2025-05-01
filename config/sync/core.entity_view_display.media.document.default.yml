@@ -1,0 +1,38 @@
+uuid: 5f6ff68c-0ec8-4ce6-84bf-5173bb85e213
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.document.field_media_file
+    - field.field.media.document.field_media_filesize
+    - field.field.media.document.field_media_mimetype
+    - media.type.document
+  module:
+    - field_formatter_class
+    - file
+_core:
+  default_config_hash: t4UXldEzLXrDFeLMG5T4QPJn8joU9W5hQArpQrbctSM
+id: media.document.default
+targetEntityType: media
+bundle: document
+mode: default
+content:
+  field_media_file:
+    type: file_default
+    label: hidden
+    settings:
+      use_description_as_link_text: true
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+    weight: 0
+    region: content
+hidden:
+  created: true
+  field_media_filesize: true
+  field_media_mimetype: true
+  langcode: true
+  name: true
+  search_api_excerpt: true
+  thumbnail: true
+  uid: true

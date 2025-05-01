@@ -1,0 +1,31 @@
+uuid: 772fde5b-7320-4091-8f31-b26c344fc8d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.default
+    - field.storage.commerce_product.field_tags
+    - taxonomy.vocabulary.tag
+_core:
+  default_config_hash: e6GG8XFrHLZYN8II3sV_ku1J4qBEYz5N2SDGvhaiG6U
+id: commerce_product.default.field_tags
+field_name: field_tags
+entity_type: commerce_product
+bundle: default
+label: Tags
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tag: tag
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

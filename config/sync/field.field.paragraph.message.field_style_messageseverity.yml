@@ -1,0 +1,25 @@
+uuid: 32a092cb-e93e-4669-a092-0a9690384a45
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_style_messageseverity
+    - paragraphs.paragraphs_type.message
+  module:
+    - options
+_core:
+  default_config_hash: jbNkti_ku5RFIZSfv3Y3sYkXkBeJ0WyShPnLii4bdAo
+id: paragraph.message.field_style_messageseverity
+field_name: field_style_messageseverity
+entity_type: paragraph
+bundle: message
+label: Severity
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: messages--status
+default_value_callback: ''
+settings: {  }
+field_type: list_string

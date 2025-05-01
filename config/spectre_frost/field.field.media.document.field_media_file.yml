@@ -1,0 +1,29 @@
+uuid: 80bfc229-c575-443c-b608-ad3e38139744
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_file
+    - media.type.document
+  module:
+    - file
+_core:
+  default_config_hash: owhbwDUXVctxiWBo0mklzxItw0VxWz5oaeu5FXKblAs
+id: media.document.field_media_file
+field_name: field_media_file
+entity_type: media
+bundle: document
+label: File
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'doc docx fodg fodp fods fodt key numbers odf odg odp ods odt pages pdf ppt pptx rtf txt xls xlsx xml'
+  max_filesize: ''
+  description_field: false
+field_type: file

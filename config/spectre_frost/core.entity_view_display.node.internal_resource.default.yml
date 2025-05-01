@@ -1,0 +1,51 @@
+uuid: 45eb1922-130b-43a5-be33-88820ff385f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.internal_resource.body
+    - field.field.node.internal_resource.field_comments
+    - node.type.internal_resource
+  module:
+    - comment
+    - text
+    - user
+id: node.internal_resource.default
+targetEntityType: node
+bundle: internal_resource
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_comments:
+    type: comment_default
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  frost_submitted:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  linked_title:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

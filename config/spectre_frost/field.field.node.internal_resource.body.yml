@@ -1,0 +1,23 @@
+uuid: ab6abb5d-2eac-45cb-865f-a87bd73ca56e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.internal_resource
+  module:
+    - text
+id: node.internal_resource.body
+field_name: body
+entity_type: node
+bundle: internal_resource
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,22 @@
+uuid: aa803712-33f8-46f2-bc67-bd5e5b473ab9
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.teren
+id: node.teren.promote
+field_name: promote
+entity_type: node
+bundle: teren
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

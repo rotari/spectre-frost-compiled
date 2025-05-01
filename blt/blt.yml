@@ -1,0 +1,36 @@
+project:
+  machine_name: frost
+  prefix: GH
+  human_name: 'Frost install profile'
+  profile:
+    name: frost
+  local:
+    protocol: https
+    hostname: 'www.${project.machine_name}.lndo.site'
+cm:
+  strategy: core-only
+git:
+  commit-msg:
+    pattern: "/^(Adds|Amends|Augments|Changes|Closes|Enhances|Fixes|Resolves) .*?#[0-9]{1,} (by|with|so) .*?(.)$/"
+    help_description: "Starts with Adds|Amends|Changes|Closes|Enhances|Fixes|Resolves, then the GitHub issue number
+      preceded by a #, then a space and either the word by|with, then a spaced and description, and closing with period."
+    example: "Resolves #7 by making a search toggle for desktop."
+  default_branch: master
+  remotes:
+    - 'git@github.com:solve-it-once/frost.git'
+    - 'yobsnu66ohnxy@git.us-2.platform.sh:yobsnu66ohnxy.git'
+deploy:
+  tag_source: true
+drush:
+  aliases:
+    remote: '${project.machine_name}.master'
+    local: self
+    ci: self
+  default_alias: '${drush.aliases.local}'
+sync.files: true
+tests:
+  drupal:
+    sudo-run-tests: false
+    phpunit: [ { path: '${docroot}/core', config: '${docroot}/core/phpunit.xml.dist', directory: '${docroot}/modules/custom' } ]
+  phpunit:
+    - { path: '${repo.root}/tests/phpunit', directory: '${repo.root}/tests/phpunit', config: '${docroot}/core/phpunit.xml.dist' }

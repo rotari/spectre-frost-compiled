@@ -1,0 +1,19 @@
+uuid: 838deb41-33e9-4f3b-ae34-d5ca8e66c2c7
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: nOkSyORF9IOl-tW_oYQY-MCAoyukXyCAWEhZv9tDeFM
+id: commerce_product
+label: Product
+tags:
+  image_src: '[commerce_product:field_seo:entity:field_seo_image:entity:field_media_image:entity:url]'
+  description: '[commerce_product:field_seo:entity:field_seo_description]'
+  news_keywords: '[commerce_product:field_seo:entity:field_seo_keywords]'
+  title: '[commerce_product:field_seo:entity:field_seo_title] | [site:name]'
+  canonical_url: '[current-page:url:absolute]'
+  og_url: '[current-page:url:absolute]'
+  og_site_name: '[site:name]'
+  og_title: '[commerce_product:field_seo:entity:field_seo_title]'
+  og_image: '[commerce_product:field_seo:entity:field_seo_image:entity:field_media_image:entity:url]'
+  og_description: '[commerce_product:field_seo:entity:field_seo_description]'

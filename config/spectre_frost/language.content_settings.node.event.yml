@@ -1,0 +1,20 @@
+uuid: 5ac85f3b-c679-4d78-9355-02033a2823c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.event
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '1'
+_core:
+  default_config_hash: 0hf6ZFC_oG9rwoDhnVCYeJoVUbmwIXVyo7FIjNb7iiA
+id: node.event
+target_entity_type_id: node
+target_bundle: event
+default_langcode: ro
+language_alterable: false

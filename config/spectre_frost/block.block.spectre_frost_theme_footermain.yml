@@ -1,0 +1,27 @@
+uuid: 93189b56-5457-459f-b063-3370ac7b51d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer-main
+  module:
+    - system
+  theme:
+    - spectre_frost_theme
+_core:
+  default_config_hash: 65Ro7EaDmW5ARznGnAfZYzwoeY_p8NAvZAiEMqUVLTA
+id: spectre_frost_theme_footermain
+theme: spectre_frost_theme
+region: footer_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer-main'
+settings:
+  id: 'system_menu_block:footer-main'
+  label: 'Footer main'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

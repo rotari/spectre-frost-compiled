@@ -1,0 +1,27 @@
+uuid: e83b4e25-4989-4014-9815-c40f3c35561d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_data_xpercent
+    - paragraphs.paragraphs_type.hotspot
+_core:
+  default_config_hash: cBgmEUSOA5tAH5PO0kQ9M-QfgxzaH5Ts2O2S5kNPSC4
+id: paragraph.hotspot.field_data_xpercent
+field_name: field_data_xpercent
+entity_type: paragraph
+bundle: hotspot
+label: 'Horizontal point (%)'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 50.0
+default_value_callback: ''
+settings:
+  min: 0.0
+  max: 100.0
+  prefix: ''
+  suffix: ''
+field_type: decimal

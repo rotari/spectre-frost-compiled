@@ -1,0 +1,12 @@
+uuid: 389a555a-e11d-4e47-90e9-b29c9c7fdd0d
+langcode: en
+status: true
+dependencies:
+  module:
+    - webform
+_core:
+  default_config_hash: 7p-jrHpci4RZTR0Lm6a7ybMPlXpShff6OxRqwQJRraA
+id: webform_submission.small
+label: Small
+targetEntityType: webform_submission
+cache: true

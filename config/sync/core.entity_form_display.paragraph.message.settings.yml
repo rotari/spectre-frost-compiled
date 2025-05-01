@@ -1,0 +1,26 @@
+uuid: a8449be0-78d5-4307-b5ae-3ae1bf360f5a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.paragraph.settings
+    - field.field.paragraph.message.field_style_messageseverity
+    - field.field.paragraph.message.field_text
+    - paragraphs.paragraphs_type.message
+_core:
+  default_config_hash: BqytIoJXeb1dQOejP8N9avx7hL9Rmro1Q7SQL4B5KDc
+id: paragraph.message.settings
+targetEntityType: paragraph
+bundle: message
+mode: settings
+content:
+  field_style_messageseverity:
+    type: options_select
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_text: true
+  status: true

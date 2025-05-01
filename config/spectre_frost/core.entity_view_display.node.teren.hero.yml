@@ -1,0 +1,105 @@
+uuid: 101141b8-b786-49f2-94ef-02d19359f983
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.hero
+    - field.field.node.teren.body
+    - field.field.node.teren.field_components
+    - field.field.node.teren.field_image
+    - field.field.node.teren.field_link_catre_teren
+    - field.field.node.teren.field_meta
+    - field.field.node.teren.field_tags
+    - node.type.teren
+  module:
+    - field_group
+    - user
+third_party_settings:
+  field_group:
+    group_flex_wrapper:
+      children:
+        - group_title_area
+        - group_imagery
+      label: 'Flex wrapper'
+      parent_name: ''
+      region: content
+      weight: 0
+      format_type: html_element
+      format_settings:
+        classes: 'display--flex flex-direction--row layout--flex-row justify-content--center align-items--center'
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+    group_title_area:
+      children:
+        - linked_title
+      label: 'Title area'
+      parent_name: group_flex_wrapper
+      region: content
+      weight: 20
+      format_type: html_element
+      format_settings:
+        classes: 'flex--2 display--flex flex-direction--column justify-content--center padding-horizontal--4 text-align--left'
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+    group_imagery:
+      children:
+        - field_image
+      label: Imagery
+      parent_name: group_flex_wrapper
+      region: content
+      weight: 21
+      format_type: html_element
+      format_settings:
+        classes: 'display--flex flex-direction--column flex--1 justify-content--center text-align--center'
+        show_empty_fields: false
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+id: node.teren.hero
+targetEntityType: node
+bundle: teren
+mode: hero
+content:
+  field_image:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: true
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  linked_title:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+hidden:
+  body: true
+  field_components: true
+  field_link_catre_teren: true
+  field_meta: true
+  field_tags: true
+  frost_submitted: true
+  langcode: true
+  links: true
+  search_api_excerpt: true
