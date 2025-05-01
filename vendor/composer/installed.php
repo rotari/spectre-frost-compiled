@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'solve-it-once/frost',
-        'pretty_version' => '10.0.x-dev',
-        'version' => '10.0.9999999.9999999-dev',
-        'reference' => '66616672ab0e58fb43862e03b02c890c9975bdcb',
+        'pretty_version' => '10.x-dev',
+        'version' => '10.9999999.9999999.9999999-dev',
+        'reference' => '5de2086fd8cca91b21b7667dbb2dde9da2bf16c9',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -2424,9 +2424,9 @@
             'dev_requirement' => false,
         ),
         'solve-it-once/frost' => array(
-            'pretty_version' => '10.0.x-dev',
-            'version' => '10.0.9999999.9999999-dev',
-            'reference' => '66616672ab0e58fb43862e03b02c890c9975bdcb',
+            'pretty_version' => '10.x-dev',
+            'version' => '10.9999999.9999999.9999999-dev',
+            'reference' => '5de2086fd8cca91b21b7667dbb2dde9da2bf16c9',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
